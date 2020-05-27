@@ -117,11 +117,16 @@ tag_archive:
   path: /tags/
   
   
-  sidebar:
+sidebar:
   - title: "Title"
     image: http://placehold.it/350x250
     image_alt: "image"
     text: "Some text here."
   - title: "Another Title"
     text: "More text here."
+    
+header:
+  image: /assets/images/your-page-image.jpg
+  og_image: /assets/images/your-og-image.jpg
+
 
