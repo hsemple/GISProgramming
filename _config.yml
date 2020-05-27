@@ -67,7 +67,7 @@ plugins:
 
 author:
   name   : "Tom Jones"
-  avatar : "/assets/images/Movieguy.PNG"
+  avatar : "/assets/images/Movieguy.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
