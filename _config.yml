@@ -24,9 +24,6 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 search: true
 
-classes: wide
-toc: true
-
 
 # Build settings
 markdown: kramdown
@@ -106,6 +103,7 @@ defaults:
       comments: true
       share: true
       related: true
+  
   # _pages
   - scope:
       path: "_pages"
