@@ -5,10 +5,11 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Tutorials"
+    url: /tutorials/
   - title: "About"
     url: /about/
-    - title: "Tutorials"
-    url: /tutorials/
+    
     
    
    
