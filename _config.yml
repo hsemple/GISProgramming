@@ -62,9 +62,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Tom Jones"
+  name   : "Hugh Semple"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Information on how to work with geodatabases: ESRI Enterprise Server, Postgresql and SQL Server."
+  bio    : "GIS Professor, Geographer."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
