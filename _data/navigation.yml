@@ -11,10 +11,10 @@ main:
     url: /about/
     
     
-   
+share: false    
    
 docs:
--share: false 
+
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
