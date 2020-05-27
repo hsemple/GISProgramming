@@ -7,8 +7,11 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+    - title: "Tutorials"
+    url: /tutorials/
     
-    
+   
+   
 docs:
   - title: Getting Started
     children:
