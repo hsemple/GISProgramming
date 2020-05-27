@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+share: false
 title: "About"
 ---
 
