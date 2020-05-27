@@ -95,7 +95,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: posts
       author_profile: true
       read_time: true
       comments: true
@@ -112,7 +112,7 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
+  tag_archive:
   type: liquid
   path: /tags/
   
@@ -125,8 +125,6 @@ tag_archive:
   - title: "Another Title"
     text: "More text here."
     
-  header:
-  image: /assets/images/your-page-image.jpg
-  og_image: /assets/images/your-og-image.jpg
+  
 
 
