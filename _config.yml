@@ -34,6 +34,10 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+header:
+  image: /assets/images/header3.jpg
+
+
 
 include:
   - _pages
@@ -108,6 +112,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+     classes: wide
+     toc: true
 
 category_archive:
   type: liquid
