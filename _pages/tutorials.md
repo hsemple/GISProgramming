@@ -1,7 +1,7 @@
 ---
 permalink: /tutorials/
 title: "Tutorials"
-share: "false"
+share: false
 sidebar:
   nav: "docs"
 ---
