@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /home/
 share: false
 title: "Home"
 ---
