@@ -70,7 +70,7 @@ plugins:
 author:
   name   : "Tom Jones"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : " Information on how to set up and work with geodatabases that run in ESRI Enterprise Server, Postgresql and SQL Server."
+  bio    : "Information on how to work with geodatabases: ESRI Enterprise Server, Postgresql and SQL Server."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
