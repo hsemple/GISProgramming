@@ -37,6 +37,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 header:
   image: /assets/images/header3.jpg
 
+classes: wide
+toc: true
 
 
 include:
@@ -64,7 +66,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Tom Jones"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
@@ -112,8 +114,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-     classes: wide
-     toc: true
+    
 
 category_archive:
   type: liquid
