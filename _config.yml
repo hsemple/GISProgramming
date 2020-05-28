@@ -65,31 +65,56 @@ author:
   name   : "Hugh Semple"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "GIS Professor, Geographer."
-  links:
-  - label: "Website"
-     icon: "fas fa-fw fa-link"
-     url: "https://"
-  - label: "Twitter"
-     icon: "fab fa-fw fa-twitter-square"
-     url: "https://twitter.com/"
-  - label: "GitHub"
-     icon: "fab fa-fw fa-github"
-     url: "https://github.com/"
-  - label: "Instagram"
-     icon: "fab fa-fw fa-instagram"
-     url: "https://instagram.com/"
 
+
+# Site Author
+author:
+  name             : "Hugh Semple"
+  avatar           : /assets/images/bio-photo.jpg"
+  bio              : "GIS Professor, Geographer"
+  location         : "USA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Site Footer
 footer:
   links:
-    -label: "Twitter"
+    - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    -label: "GitHub"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    -label: "Instagram"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url:
+
 
 defaults:
   # _posts
