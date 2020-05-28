@@ -17,7 +17,7 @@ docs:
   - title: Python
     children:
       - title: "Basic Python"
-        url: /docs/quick-start-guide
+        url: /docs/basic_python
       - title: "Open Source Python Libries"
         url: /docs/structure/
       - title: "ArcPy"
