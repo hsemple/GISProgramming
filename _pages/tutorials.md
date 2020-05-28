@@ -5,6 +5,13 @@ sidebar:
   nav: "docs" 
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+GIS programming offers opportunities for people to develop significant understanding of how GIS software works and how such software are used for solving a wide range of practical problems. While a knowlege of programming is not absolutely necessary
+for getting a job in GIS, it certainly helps a lot in getting jobs faster in GIS, as well as getting higher paying jobs. 
+
+Programming is used for a variety of purposes in GIS including automating lenghty processes, customizing the software to make it more user friendly, adding additional capabilities to the software, building web mapping applications, and data analysis. 
+
+To provide an overiew of the programming language you master, take a look at this article.  
+
+a. https://gisgeography.com/free-gis-programming-tutorials/
+b. https://gisgeography.com/python-libraries-gis-mapping/
