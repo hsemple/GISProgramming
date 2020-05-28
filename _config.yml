@@ -67,12 +67,7 @@ author:
   name             : "Hugh Semple"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "GIS Professor, Geographer"
-# Site Author
-author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "USA
   email            :
   links:
     - label: "Email"
