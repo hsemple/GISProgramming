@@ -15,3 +15,4 @@ To provide an overiew of the programming language you master, take a look at thi
 
 a. https://gisgeography.com/free-gis-programming-tutorials/
 b. https://gisgeography.com/python-libraries-gis-mapping/
+c. https://developers.google.com/maps/documentation/javascript/examples/map-simple
