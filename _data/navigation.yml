@@ -16,13 +16,13 @@ docs:
   
   - title: Python
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "Basic Python"
+        url: /docs/quick-start-guide
+      - title: "Open Source Python Libries"
         url: /docs/structure/
-      - title: "Installation"
+      - title: "ArcPy"
         url: /docs/installation/
-      - title: "Upgrading"
+      - title: "Advanced Python"
         url: /docs/upgrading/
 
   - title: Web Mapping
