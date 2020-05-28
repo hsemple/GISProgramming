@@ -35,8 +35,6 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-
-
 include:
   - _pages
 
@@ -67,7 +65,6 @@ author:
   name             : "Hugh Semple"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "GIS Professor, Geographer"
-  location         : "USA"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
