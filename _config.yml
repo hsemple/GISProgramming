@@ -61,16 +61,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "Hugh Semple"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "GIS Professor, Geographer."
-
 
 # Site Author
 author:
   name             : "Hugh Semple"
-  avatar           : /assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "GIS Professor, Geographer"
   links:
     - label: "Website"
