@@ -14,7 +14,7 @@ main:
 docs:
   - share:false
   
-  - title: Getting Started
+  - title: Python
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
@@ -25,20 +25,20 @@ docs:
       - title: "Upgrading"
         url: /docs/upgrading/
 
-  - title: Customization
+  - title: Web Mapping
     children:
-      - title: "Configuration"
+      - title: "HTML"
         url: /docs/configuration/
-      - title: "Navigation"
+      - title: "CSS"
         url: /docs/navigation/
-      - title: "UI Text"
+      - title: "JavaScript"
         url: /docs/ui-text/
-      - title: "Authors"
+      - title: "ArcGIS Online "
         url: /docs/authors/
-      - title: "Layouts"
+      - title: "MapBox"
         url: /docs/layouts/
 
-  - title: Content
+  - title: MapWindow GIS
     children:
       - title: "Working with Posts"
         url: /docs/posts/
@@ -51,7 +51,7 @@ docs:
       - title: "Utility Classes"
         url: /docs/utility-classes/
 
-  - title: Extras
+  - title: Leaflet
     children:
       - title: "Stylesheets"
         url: /docs/stylesheets/
