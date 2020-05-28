@@ -65,8 +65,7 @@ author:
   name   : "Hugh Semple"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "GIS Professor, Geographer."
-  
-links:
+  links:
   - label: "Website"
      icon: "fas fa-fw fa-link"
      url: "https://"
