@@ -19,7 +19,7 @@ docs:
       - title: "Basic Python"
         url: /docs/basic_python
       - title: "Open Source Python Libries"
-        url: /docs/structure/
+        url: /docs/open_source_python/
       - title: "ArcPy"
         url: /docs/installation/
       - title: "Advanced Python"
