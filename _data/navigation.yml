@@ -6,13 +6,14 @@ main:
   - title: "Tutorials"
     url: /tutorials/
 
-share:false
+
   
     
       
    
 docs:
-
+  - share:false
+  
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
