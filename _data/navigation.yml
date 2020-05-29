@@ -17,7 +17,7 @@ docs:
   - title: Python
     children:
       - title: "Basic Python"
-        url: intro_python 
+        url: /intro_python 
       - title: "Open Source Python Libries"
         url: /docs/open_source_python/
       - title: "ArcPy"
