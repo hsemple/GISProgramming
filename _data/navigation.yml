@@ -35,8 +35,8 @@ docs:
 
   - title: MapWindow GIS
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
+      - title: "Introduction to MapWinGIS"
+        url: /intro_mapwingis/ 
       - title: "Working with Pages"
         url: /docs/pages/
       - title: "Working with Collections"
