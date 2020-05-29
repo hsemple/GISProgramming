@@ -6,9 +6,6 @@ sidebar:
 ---
 
 
-<h2> Basic Python  Topics</h2>
-
-
 <h3>Section A </h3>
 <ul>
 <li> What is Python? </li>
