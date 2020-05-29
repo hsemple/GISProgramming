@@ -2,10 +2,10 @@
 ---
 permalink: docs/basic_python
 title: "Basic Python"
-
+share:true
 sidebar:
   nav: "docs" 
-  share:true
+
 ---
 
 
@@ -15,7 +15,7 @@ sidebar:
   
 <li><a href = "https://www.earthdatascience.org/"> Earth Lab. Earth Science tutorials using Python and R</a></li>
 
-<li><a href = "https://mgimond.github.io/ES218/index.html "> Exploratory Data Analysis in R</a>d</li>
+<li><a href = "https://mgimond.github.io/ES218/index.html "> Exploratory Data Analysis in R</a></li>
 
 </ul>
 
