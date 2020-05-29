@@ -1,10 +1,8 @@
 
 ---
-permalink: docs/basic_python
-title: "Basic Python"
-sidebar:
-  share:true
-  nav: "docs" 
+permalink: /home/
+share: false
+title: "Home"
 ---
 
 
