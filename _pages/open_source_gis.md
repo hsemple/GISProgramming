@@ -1,7 +1,7 @@
 
 ---
-permalink: /opensource_gis/
-title: "GIS with Open Source Python Libraries"
+permalink: /open_source_gis/
+title: "GIS Using Open Source Python Libraries"
 sidebar:
   nav: "docs" 
 ---
