@@ -10,21 +10,23 @@ sidebar:
 
 ## What is MapWinGIS
 
-[MapWinGIS](https://github.com/MapWindow/MapWinGIS/releases) is an ActiveX control that enables developers to integrate GIS functionalities into their Windows applications.  It is part of the [MapWindow GIS Project](https://www.mapwindow.org/) and has been around for several years. It is thus very stable with lots of users. While the technical documentation for the control is available, documentation to help people get started who are new to programming is sparse. This project seeks to fill this gap by providing introductory tutorials and code for people to get started with the control. This is the first in a set of tutorials that will be forthcoming.
+[MapWinGIS](https://github.com/MapWindow/MapWinGIS/releases) is an ActiveX control that enables developers to integrate GIS functionalities into their Windows applications.  It is part of the [MapWindow GIS Project](https://www.mapwindow.org/) and has been around for several years. It is thus very stable with lots of users. 
+<p>
+While the technical documentation for the control is available, documentation to help people get started who are new to programming is sparse. This project seeks to fill this gap by providing introductory tutorials and code for people to get started with the control. This is the first in a set of tutorials that will be forthcoming.</p>
 
 
 
-### Getting Started - Build a Simple Map Viewer Application
+### Building a Simple Map Viewer Application
 
-Let's get started by building a simple map viewer application. This application will allow us to view shapefiles using our own custom map viewer map viewer. I am using VB.Net for coding, but the codes can be easily converted to c#.
+Let's illustrate how to use MapWinGIS by building a simple map viewer application. This application will allow us to view shapefiles using our own custom map viewer. I am using VB.Net for coding, but the codes can be easily converted to c#.
   
-1.  Start Visual Studio and Create a new project. 
+1. Start Visual Studio and Create a new project. 
 
 2. When the windows form appear as shown below, you are ready to start designing your custom application.
     ![Image](https://user-images.githubusercontent.com/8826424/82830995-3083bb80-9e85-11ea-977b-9a81db45bb6c.jpg)   
  
  
-3. Visit this website and download [MapWinGIS.ocx](https://www.mapwindow.org/#download). Download the two files showin the illustration below. From my experience, if you just download the 64 bit file, the Control won't appear. When both are downloaded and installed, everything works fine.
+3. Visit [MapWinGIS.ocx](https://www.mapwindow.org/#download). Download the two files show in the illustration below. From my experience, if you just download the 64 bit file, the Control won't appear in VB.Net. When both are downloaded and installed, everything works fine.
 
     ![image](https://user-images.githubusercontent.com/8826424/82831941-ccaec200-9e87-11ea-8633-7019b2b56c40.png)  
    
@@ -74,7 +76,8 @@ Let's get started by building a simple map viewer application. This application 
 16. Click on each button and the properties dialog associated with the button will appear to the right. Name your buttons: “btnAddShapefile", "btnZoomIn," "btnZoomOut," “btnPan,” and “btnFullExtent”. 
 
 
-17. Now add an image to each button. Look on the internet for free icons for the different controls and save the images to a folder.  For each button on the toolstrip, click on the button, then in the properties window, select Image. Click on “Systems.Drawing.Bitmap”. Follow the prompt and import the appropriate image for each button.
+17. Now add an image to each button. Look on the internet for free icons for the different controls and save the images to a folder.  For each button on the toolstrip, click on the button, then in the properties window, select Image. Click on "Systems.Drawing.Bitmap". Follow the prompt and import the appropriate image for each button.
+
     ![image](https://user-images.githubusercontent.com/8826424/82835859-426c5b00-9e93-11ea-9536-124d16ef2907.png)
 
 
@@ -99,7 +102,8 @@ Let's get started by building a simple map viewer application. This application 
         End If
        End Sub
  
-
+<br>
+    
     ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png)
 
 
@@ -109,25 +113,25 @@ Let's get started by building a simple map viewer application. This application 
 
 21. Add Code to the Navigation Buttons. Add code to the subroutine stubs for each of the Click event for each of your buttons. Add only the code in blue to the to the wrapper for each button. 
 
-    Private Sub btnZoomIn_Click(sender As Object, e As EventArgs) Handles btnZoomIn.Click 
+    Private Sub btnZoomIn_Click(sender As Object, e As EventArgs) Handles btnZoomIn.Click. 
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn
     End Sub
 
      
  
-    Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click 
+    Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click. 
         mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut
     End Sub
     
 
      
-    Private Sub btnPan_Click(sender As Object, e As EventArgs) Handles btnPan.Click 
+    Private Sub btnPan_Click(sender As Object, e As EventArgs) Handles btnPan.Click. 
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmPan  
     End Sub
     
 
      
-    Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click 
+    Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click. 
         mapMain.ZoomToMaxExtents() 
     End Sub
    
@@ -142,7 +146,8 @@ Let's get started by building a simple map viewer application. This application 
     ![image](https://user-images.githubusercontent.com/8826424/82833545-43e65500-9e8c-11ea-8f12-043129b68702.png)
 
 
-
+<br>
+<p>
 
 
 ##  Section 2. Displaying the Shapefile's Attribute Table
@@ -161,7 +166,7 @@ In this section, we will write code to allow users to view the attribute table a
 
 6. Now we will write code to establish communication between the main form and the attribute table form as well as opening the attribute table.  Double click the btnShowDataGrid button to create an event handler for the button.  Set up the Private Sub btnShowDataGrid_Click(…) sub as shown below. 
 
-<pre>
+
     Private Sub ToolStripButton8_Click(sender As Object, e As EventArgs)Handles BtnShowDataGrid.Click.
     'Dim shpfile As New MapWinGIS.Shapefile
     Dim hndshpfile As Integer = MapMain.NumLayers - 1 ' Get the handle of the layer
@@ -172,8 +177,7 @@ In this section, we will write code to allow users to view the attribute table a
     myTableForm.ShowDialog()
 
     End Sub
-
-</pre>        
+      
 
 7. This code is part of the setup that allows communication between the main form and the attribute table form. Whenever the user clicks the Show Attribute Table button, the a reference to the current shapefile is obtained. Secondly, a new instance of the AttributeTable form will be created and then displayed with the shapefile's information that was passed to it.
 
@@ -183,7 +187,7 @@ In this section, we will write code to allow users to view the attribute table a
   <pre>
     Dim pShapeFile As MapWinGIS.Shapefile
  
-<pre>
+ <pre>
 
 
 9. Create a new Subroutine called New(…) with parameters ByRef **myShapeFile** As MapWinGIS.Shapefile. Create the subroutine by copying the entire code below including the wrapper and pasting it below the Class declaration you made in the last section. A line will appear separating the two codes.  
@@ -217,7 +221,7 @@ In this section, we will write code to allow users to view the attribute table a
 	
 	
 13. Add the following under public	
-  <pre>   
+   
     Public Class AttributeTable
     Dim pMyShapeFile As MapWinGIS.Shapefile
     Dim MyDataRow As DataRow
@@ -243,26 +247,27 @@ In this section, we will write code to allow users to view the attribute table a
 	
     End Class
     
-</pre>
     	
 
-12.  The first two lines in the code above will create a temporary datatable and datarow. These will be populated with data from the shapefiles attribute table. Column is an attribute of myDataTable. The "For i ..." code block will loop through the column names found in the shapefile's attribute and add them to the myDataTable columns.  
+14.  The first two lines in the code above will create a temporary datatable and datarow. These will be populated with data from the shapefiles attribute table. Column is an attribute of myDataTable. The "For i ..." code block will loop through the column names found in the shapefile's attribute and add them to the myDataTable columns.  
 
 
 13. The "For .. j" code block will get the number of shapes in the shapefile's variable (pShapeFile) then loop through each shape to create new rows. Then, for each field, the For k code block will add the cell values for the appropriate row/field position. Finally the temporary row is added to the myDataTable variable.  The DataGridView1.DataSource line sets the data source to be equal to myDataTable.
 
 
-14. Run your program then load a shapefile. Click the Show Data Grid button. The attribute table should display, as shown below.
+15. Run your program then load a shapefile. Click the Show Data Grid button. The attribute table should display, as shown below.
 
     ![image](https://user-images.githubusercontent.com/8826424/82843822-730cbe80-9eac-11ea-8013-4bd4b694f364.png)
 
  
-15. That's it. In the next section, we illustrate how to compile your application so that it could be distributed to end users.
+16. That's it. In the next section, we illustrate how to compile your application so that it could be distributed to end users.
 
-
+<br>
+<p>
 
 ##  Section 3. Compiling Your Application
 The details of compiling your application can be found on many websites.  Below, I provide an overview of the process.  using information found at this [link](https://msdn.microsoft.com/en-us/library/jj730426.aspx) 
+
 1. Quit running the program and return to the development environment.  Click on Project then Properties to access the properties of your application.
  
 
@@ -277,9 +282,12 @@ The details of compiling your application can be found on many websites.  Below,
  
 6. From the Publish tab, click on Options and fill in the dialog under description. Enter your name and the product name.
  
+
 7. In the Publish options, under Manifests, put a check in front of “Create desktop shortcut”.
  
+
 8. In the Publish options, click on Publish Wizard and select a location where you want the .exe and associated files to be placed.  
+
 
 9. Click on Next and accept defaults.  Visual Studio will create the exe files and all associated files necessary to install your program on another computer. You can copy the folder and its contents, put it on another computer and run the setup file to install it.
 
