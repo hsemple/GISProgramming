@@ -1,9 +1,12 @@
+
 ---
 permalink: docs/basic_python
 title: "Basic Python"
+share:true
 sidebar:
   nav: "docs" 
 ---
+
 
 
 <ul style="list-style-type:disc">
