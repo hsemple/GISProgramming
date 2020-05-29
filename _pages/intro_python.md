@@ -5,8 +5,9 @@ sidebar:
   nav: "docs" 
 ---
 
+<h3>Syllabus</h3>
 
-<h3>Section A </h3>
+<h3>Unit 1</h3>
 <ul>
 <li> What is Python? </li>
 <li> Downloading and installing Python, IDLE, Anaconda Distribution, Jupyter Notebook </li>
@@ -21,7 +22,7 @@ sidebar:
 </ul>
   
  
-<h3> Recommended Tutorials  </h3>
+<i> Recommended Tutorials  </i>
 <ul> 
   <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
   <li><a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
@@ -30,7 +31,7 @@ sidebar:
   
   
   
-<h3> Section B </h3>
+<h3> Unit 2 </h3>
 <ul>
 <li> List Comprehension  </li>
 <li>	Conditional statements </li>
@@ -42,7 +43,7 @@ sidebar:
 <li>	Arrays  </li>
 </ul>
 
-<h3> Recommended Tutorials </h3>
+<u> Recommended Tutorials </i>
 <ul>
   <li>  <a href ="https://www.learnbyexample.org/python-if-else-elif-statement/">Learn by Example </a>  </li>
   <li>  <a href = "https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">PYnative  </a> </li>
@@ -50,7 +51,7 @@ sidebar:
   <li>  <a href = "https://www.softwaretestinghelp.com/python/python-file-reading-writing/">Python File Handling Tutorial </a>  </li>
 </ul>
 
-<h3> Section C </h3>
+<h3> Unit 3 </h3>
 <ul>
 <li>	Classes/Objects </li>
 <li>  Inheritance </li>
@@ -59,20 +60,11 @@ sidebar:
 </ul>
 
 
-<h3> Recommended Tutorials </h3>
+<i> Recommended Tutorials </i>
 <ul>
 <li> <a href = "https://realpython.com/inheritance-composition-python/">Real Python </a>  </li>
 <li> <a href = "https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-classes/cheatsheet">Code Academy </a>       </li>
 </ul>
 
 
-<h3> Section D </h3>
-<ul>
-<li> <a href = "https://www.earthdatascience.org/workshops/gis-open-source-python/intro-vector-data-python/"> Introduction to Vector Data </a> </li>
-<li> Displaying shapefiles using Pandas, PyShp  </li>
-<li> Displaying Rasters using GDAL and Rosterio </li>
-<li> <a href = "https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/">Intro to Coordinate Reference Systems in Python </a> </li>
-<li> <a href = "https://www.dataquest.io/blog/pandas-concatenation-tutorial/">Table Joins </a>  </li>
-<li> <a href = "https://www.e-education.psu.edu/geog485/node/253">GIS data access and manipulation with Python </a></li>
-</ul>
 
