@@ -11,7 +11,7 @@ sidebar:
 <ul>
 <li> What is Python? </li>
 <li> Downloading and installing Python. I recommend that you download <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> which come with Jupyter Notebook </li>
-<li> Variables and variable assignment </li>. <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>
+<li> Variables and variable assignment.   <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>.</li>
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
 <li> String formatting </li>
 <li> Casting </li>
