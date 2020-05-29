@@ -5,7 +5,7 @@ sidebar:
   nav: "docs" 
 ---
 
-<h3>Syllabus</h3>
+<h3>Topics</h3>
 
 <h3>Unit 1</h3>
 <ul>
@@ -43,7 +43,7 @@ sidebar:
 <li>	Arrays  </li>
 </ul>
 
-<u> Recommended Tutorials </i>
+<i> Recommended Tutorials </i>
 <ul>
   <li>  <a href ="https://www.learnbyexample.org/python-if-else-elif-statement/">Learn by Example </a>  </li>
   <li>  <a href = "https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">PYnative  </a> </li>
