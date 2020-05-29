@@ -6,4 +6,12 @@ sidebar:
 ---
 
 
-Whether you are working with large or small datasets,  file  geodatabases  optimized  for  use in ArcGIS are ideal for storing and managing geospatial  data. Whether  you  are  working  on a  single-user  project  or  a  project  involving  a small  group  with  one  or  several  editors,  you really should consider using a file geodatabase rather    than    a    personal    geodatabase or collection of shapefiles. File geodatabases offer structural, performance, and data management advantages  over  personal  geodatabases  and shapefiles
+<ul style="list-style-type:disc">
+<li><a href = "https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/"> Intro to Coordinate Reference Systems in Python</a></li>
+  
+<li><a href = "https://www.earthdatascience.org/"> Earth Lab. Earth Science tutorials using Python and R</a></li>
+
+<li><a href = "https://mgimond.github.io/ES218/index.html "> Exploratory Data Analysis in R</a>d</li>
+
+</ul>
+
