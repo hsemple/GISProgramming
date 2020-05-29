@@ -13,7 +13,7 @@ docs:
     children:
       - title: "Basic Python"
         url: /intro_python/ 
-      - title: "Open Source Python GIS Libraries"
+      - title: "Open Source Python GIS"
         url: /open_source_gis/
       - title: "ArcPy"
         url: /docs/installation/
