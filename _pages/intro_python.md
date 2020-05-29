@@ -6,7 +6,7 @@ sidebar:
 ---
 
 
-<h2> Basic Python </h2>
+<h2> Basic Python  Topics</h2>
 
 
 <h3>Section A </h3>
@@ -36,7 +36,7 @@ sidebar:
 <h3> Section B </h3>
 <ul>
 <li> List Comprehension  </li>
-<li>	Conditional statements
+<li>	Conditional statements </li>
 <li>  While Loops  </li>
 <li>  For Loops  </li>
 <li>  Functions  </li>
@@ -71,12 +71,13 @@ sidebar:
 
 <h3> Basic GIS Using Open Source Libraries </h3>
 <ul>
-<li> Displaying and exploring shapefiles using Pandas, Shp  </li>
-<li> <a href = "https://www.earthdatascience.org/workshops/gis-open-source-python/intro-vector-data-python/"Introduction to Vector Data </a> </li>
-<li> Displaying Rasters using GDAL and Rosterio  </li>
+<li> Displaying and exploring shapefiles using Pandas, PyShp  </li>
+<li> <a href = "https://www.earthdatascience.org/workshops/gis-open-source-python/intro-vector-data-python/"> Introduction to Vector Data </a> </li>
+<li> Displaying Rasters using GDAL and Rosterio </li>
 <li> <a href = "https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/">Intro to Coordinate Reference Systems in Python </a> </li>
   <li> <a href = "https://www.dataquest.io/blog/pandas-concatenation-tutorial/">Table Joins </a>  </li>
 </ul>
+
 
 <h3> Displaying Spatial Data with ArcPy </h3>
 <ul>
