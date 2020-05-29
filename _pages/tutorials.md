@@ -6,13 +6,10 @@ sidebar:
 ---
 
 
-GIS programming offers opportunities for people to develop significant understanding of how GIS software works and how such software are used for solving a wide range of practical problems. While a knowlege of programming is not absolutely necessary
-for getting a job in GIS, it certainly helps a lot in getting jobs faster in GIS, as well as getting higher paying jobs. 
+Programming is used for a variety of purposes in GIS including automating lenghty processes, adding customs functions to extend the capabilities the software, customizing the software to make it more user friendly, adding mapping functionalities to regular computer programs, build building mobile and web mapping applications, and data analysis. 
 
-Programming is used for a variety of purposes in GIS including automating lenghty processes, customizing the software to make it more user friendly, adding additional capabilities to the software, building web mapping applications, and data analysis. 
+While a knowlege of programming is not absolutely necessary for getting a job in GIS, it certainly helps a lot in securing jobs faster in GIS, as well as getting higher paying jobs. 
 
-To provide an overiew of the programming language you master, take a look at this article.  
+This <a href = "https://gisgeography.com/free-gis-programming-tutorials/">page</a> as well as this <a href = "https://gisgeography.com/python-libraries-gis-mapping/"><one</a>  discusses several programming languages that are popular in GIS. They include Python, C#, C++, and VB.NET for desktop programming; Javascript, HTML, CSS for web programming, SQL for working with databases, and R Spatial for data analysis. Of course GIS programmers use other languages and keep abreast of developments in programming.  While the previous links pointed you in the direction of popular programming languages in GIS, the goal of this site is to present several tutorials or links to tutorials to get you started in GIS programming. You will also find links to news and views about programming in GIS. Happy programming!
 
-a. https://gisgeography.com/free-gis-programming-tutorials/
-b. https://gisgeography.com/python-libraries-gis-mapping/
-c. https://developers.google.com/maps/documentation/javascript/examples/map-simple
+
