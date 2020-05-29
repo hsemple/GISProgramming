@@ -22,7 +22,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
   
 1. Start Visual Studio and Create a new project. 
 
-2. When the windows form appear as shown below, you are ready to start designing your custom application.
+2. When the windows form appear as shown below, you are ready to start designing your custom application.<br>
     ![Image](https://user-images.githubusercontent.com/8826424/82830995-3083bb80-9e85-11ea-977b-9a81db45bb6c.jpg)   
  
  
@@ -69,7 +69,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 14. Click on the dropdown to the top left of the ToolStrip and select "Button".  A button will be added to the ToolStrip. 
  
 
-15. Click the dropdown again and this time select "Separator".  A separator or space will be added next to the button. Click button again and add another button. Repeat the process until you have added five buttons with appropriate spaces between them, as shown below.
+15. Click the dropdown again and this time select "Separator".  A separator or space will be added next to the button. Click button again and add another button. Repeat the process until you have added five buttons with appropriate spaces between them, as shown below.<br>
     ![image](https://user-images.githubusercontent.com/8826424/82845237-bfa6c880-9eb1-11ea-92f6-ef9aa72de4cb.png)
 
 
@@ -100,7 +100,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
             'Add the layer to the map
             mapMain.AddLayer(shpfile, True)
         End If
-       End Sub
+    End Sub
  
 <br>
     
