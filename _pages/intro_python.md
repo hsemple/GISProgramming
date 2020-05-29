@@ -10,7 +10,7 @@ sidebar:
 <h3>Unit 1</h3>
 <ul>
 <li> What is Python? </li>
-<li> Downloading and installing Python, IDLE, Anaconda Distribution, Jupyter Notebook </li>
+<li> Downloading and installing Python. I recommend that you download <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> which come with Jupyter Notebook </li>
 <li> Variables and variable assignment </li>
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
 <li> String formatting </li>
@@ -24,6 +24,7 @@ sidebar:
  
 <i> Recommended Tutorials  </i>
 <ul> 
+  <li> <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> Python Variables</a> YouTube Video.
   <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
   <li><a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
 </ul>
