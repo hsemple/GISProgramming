@@ -2,10 +2,9 @@
 ---
 permalink: docs/basic_python
 title: "Basic Python"
-share:true
 sidebar:
+  share:true
   nav: "docs" 
-
 ---
 
 
