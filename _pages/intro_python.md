@@ -1,5 +1,5 @@
 ---
-permalink: intro_python
+permalink: /intro_python/
 title: "introduction to Python"
 sidebar:
   share:true
