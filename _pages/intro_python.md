@@ -11,7 +11,7 @@ sidebar:
 <ul>
 <li> What is Python? </li>
 <li> Downloading and installing Python. I recommend that you download <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> which come with Jupyter Notebook </li>
-<li> Variables and variable assignment </li>
+<li> Variables and variable assignment </li>. <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
 <li> String formatting </li>
 <li> Casting </li>
@@ -24,7 +24,6 @@ sidebar:
  
 <i> Recommended Tutorials  </i>
 <ul> 
-  <li> <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> Python Variables</a> YouTube Video.
   <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
   <li><a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
 </ul>
@@ -34,13 +33,13 @@ sidebar:
   
 <h3> Unit 2 </h3>
 <ul>
-<li> List Comprehension  </li>
 <li>	Conditional statements </li>
 <li>  While Loops  </li>
 <li>  For Loops  </li>
 <li>  Functions  </li>
 <li>  File handling  </li>
 <li>  Creating Graphs using Matplotlib, Pandas  </li>
+<li>  List Comprehension  </li>
 <li>	Arrays  </li>
 </ul>
 
