@@ -1,8 +1,7 @@
 ---
 permalink: /intro_python/
-title: "introduction to Python"
+title: "Introduction to Python"
 sidebar:
-  share:true
   nav: "docs" 
 ---
 
