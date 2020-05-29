@@ -1,10 +1,10 @@
-
 ---
 permalink: /open_source/
 title: "Open Source Python GIS"
 sidebar:
   nav: "docs" 
 ---
+
 
 
 <h3> Unit 1 </h3>
