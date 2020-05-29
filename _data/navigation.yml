@@ -14,7 +14,7 @@ docs:
       - title: "Basic Python"
         url: /intro_python/ 
       - title: "Open Source Python GIS"
-        url: /open_source_gis/
+        url: /open_source/
       - title: "ArcPy"
         url: /docs/installation/
       - title: "Advanced Python"
