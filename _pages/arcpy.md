@@ -7,10 +7,10 @@ sidebar:
 ---
 
 
-
-
+<br>
+### What is ArcPy
 ArcPy is a commercial GIS library created by ESRI for use by its software ArcMap and ArcGIS Pro.  It provides access to all the tools in ArcToolbox.  Tools are accessed as functions using the following syntax :  
-          "arcpy.<toolname_toolboxalias><parameters>"
+          "arcpy[toolname_toolboxalias][parameters]"
 
  
 
