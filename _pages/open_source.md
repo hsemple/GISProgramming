@@ -44,7 +44,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 
 ## Code Snippets
 
-### Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
+Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
 
     import matplotlib.pyplot as plt
     import geopandas as gpd
@@ -63,7 +63,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
     plt.show()
 <br>
  
-### Plotting a Thematic Map
+Plotting a Thematic Map
 
     import pandas as pd
     import geopandas
@@ -83,7 +83,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
     fig.savefig("/Users/.../map_export.png", dpi=300)
 <br>
  
-### Plotting a Shapefile Using PyShp
+Plotting a Shapefile Using PyShp
 
 The geopandas code is preferred over the code below but I include here for the insights it provides into the structure of shapefiles, i.e., parts and points, and how these are accessed and manipulated.  
   
@@ -113,7 +113,7 @@ The geopandas code is preferred over the code below but I include here for the i
     
  <br>
  
- ### Displaying a Raster Using GDAL
+Displaying a Raster Using GDAL
  
     import numpy as np
     import gdal
@@ -130,7 +130,7 @@ The geopandas code is preferred over the code below but I include here for the i
   
  <br>
  
-### Displaying a three-band Raster with GDAL
+Displaying a three-band Raster with GDAL
 
     import numpy as np
     from osgeo import gdal
@@ -155,4 +155,28 @@ The geopandas code is preferred over the code below but I include here for the i
     plt.show()
  
  
+  
+Displaying a three-band Raster with  Rasterio
+
+Rasterio is a popular open source Python library used for viewing and manipulating rasters.  Rasterio utilizes the gdal library to display rasters. With rasterio, viewing a raster can be done with just a few lines of code, like the example below. 
+
+Rasterio has a show( ) method for displaying rasters. However, the library also uses pyplot’s imshow method to display the data.
+
+ 
+
+    import rasterio
+    from matplotlib import pyplot
+
+    src = rasterio.open("C:/Users../N47E010.hgt")
+    src_array = src.read(1)
+
+    fig, ax = pyplot.subplots(1, figsize=(12, 12))
+    img = ax.imshow(src_array) # Get the plot renderer object.
+
+    fig.colorbar(img, ax=ax) #Associate the figure object with plot renderer and axes objects.
+    ax.set_aspect('auto') #Let the axes object set the length of the colobar. 
+
+    pyplot.show()
+    
+  
   
