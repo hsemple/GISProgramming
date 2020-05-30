@@ -8,7 +8,7 @@ sidebar:
 
 Python programming in GIS works by using the Python language to manipulate spatial objects contained in the large number of Python-based GIS libraries that available. 
 
-As beginner, you have to first learn basic Python programming concepts.  Afterwards, you move on to use this knowledge to work with the Python GIS libraries.  Below, I list many of the basic Python concepts that have to be mastered.  
+As a beginner, you must first learn basic Python programming concepts.  Afterwards, you use this knowledge to work with the Python GIS libraries.  Below, I list some of the basic Python concepts that must be first mastered before you can work successfully with the GIS libraries.  
 
 <h3>Unit 1</h3>
 <ul>
@@ -33,7 +33,6 @@ As beginner, you have to first learn basic Python programming concepts.  Afterwa
 </ul>
 <br/><br/>
   
-    
 <h3> Unit 2 </h3>
 <ul>
 <li>	Conditional statements </li>
@@ -56,12 +55,11 @@ As beginner, you have to first learn basic Python programming concepts.  Afterwa
 </ul>
 <br/><br/>
 
-
 <h3> Unit 3 </h3>
 <ul>
 <li>	Classes/Objects </li>
 <li>  Inheritance </li>
-<li>  Exceptions  </li>
+<li>  Exceptions Handling </li>
 <li>  Debugging  </li>
 </ul>
 <br/> 
