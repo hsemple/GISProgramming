@@ -10,7 +10,7 @@ sidebar:
 <h3>Unit 1</h3>
 <ul>
 <li> What is Python? </li>
-<li> Downloading and installing Python. I recommend that you download <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> which come with Jupyter Notebook </li>
+<li> Downloading and installing Python. Download <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> </li>
 <li> Variables and variable assignment.   <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>.</li>
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
 <li> String formatting </li>
@@ -21,14 +21,14 @@ sidebar:
 <li> Creating simple programs</li>
 </ul>
 
-I recommend looking at this <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">video </a> to get started with basic concepts in Python listed above </li>  
  
-<i> Recommended Tutorials  </i>
+<i> Recommended Videos and Tutorials  </i>
 <ul> 
+  <li> <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">video </a> </li>  
   <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
   <li><a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
 </ul>
-
+<br/><br/>
   
   
   
@@ -44,6 +44,7 @@ I recommend looking at this <a href = "https://www.youtube.com/watch?v=yE9v9rt6z
 <li>	Arrays  </li>
 </ul>
 
+
 <i> Recommended Tutorials </i>
 <ul>
   <li>  <a href ="https://www.learnbyexample.org/python-if-else-elif-statement/">Learn by Example </a>  </li>
@@ -51,6 +52,9 @@ I recommend looking at this <a href = "https://www.youtube.com/watch?v=yE9v9rt6z
   <li>	<a href = "https://www.guru99.com/reading-and-writing-files-in-python.html">Guru99 </a>  </li>
   <li>  <a href = "https://www.softwaretestinghelp.com/python/python-file-reading-writing/">Python File Handling Tutorial </a>  </li>
 </ul>
+<br/><br/>
+
+
 
 <h3> Unit 3 </h3>
 <ul>
