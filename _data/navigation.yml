@@ -39,7 +39,7 @@ docs:
         url: /C#/
       - title: "Building a Simple Map Viewer App"
         url: /intro_mapwingis/ 
-      - title: "Extending the Map Viwer Application"
+      - title: "Extending the Map Viewer Application"
         url: /mapviewer_extended/
       - title: "Sample Codes"
         url: /sample_scripts/
