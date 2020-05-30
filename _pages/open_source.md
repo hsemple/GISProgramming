@@ -29,16 +29,12 @@ Once you have mastered basic concepts in Python, you are ready to take on workin
 <br>
 Below, you will find links and code snippets to common tasks in GIS that are made possible using these libraries.  
 
-* Displaying shapefiles using Pandas, PyShp 
-* Displaying Rasters using GDAL and Rosterio 
-* <a href = "https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/">Intro to Coordinate Reference Systems in Python </a> 
-* <a href = "https://www.dataquest.io/blog/pandas-concatenation-tutorial/">Table Joins </a>  
-* <a href = "https://www.e-education.psu.edu/geog485/node/253">GIS data access and manipulation with Python </a>
-
-<br>
-
-## Short Course
+## Short Course and Tutorials
 * [Short Course in manipulating Python Geospatial Libraries](https://automating-gis-processes.github.io/CSC18/lessons/L1/Intro-Python-GIS.html)
+* [Intro to Coordinate Reference Systems in Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/)
+* [Plotting Coordinates](https://idlecoding.com/transverse-mercator-with-python/)
+* [Table Joins](https://www.dataquest.io/blog/pandas-concatenation-tutorial/)
+* [GIS data access and manipulation with Python](https://www.e-education.psu.edu/geog485/node/253) 
 
 <br>
 
