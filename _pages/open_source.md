@@ -42,7 +42,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 
 ### Code Snippets
 
-#### Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
+#### Displaying a Shapefiles Using Geopandas
 
     import matplotlib.pyplot as plt
     import geopandas as gpd
