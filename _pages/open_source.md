@@ -277,7 +277,7 @@ Once Rasterio is installed, run the sample script below.
 
 #### Perform Neighborhood Analysis
 
-In GIS, many operations are based on neighborhood filters. This script illustrates the basic procedure for accessing and processing neighborhood data based on a 3 x 3 filter.
+In GIS, many operations are based on neighborhood filters. This illustration below shows notation for a cell and its neightbors. The script that follows shows a basic procedure for accessing and processing neighborhood data based on a 3 x 3 filter. 
 
  ![image](https://user-images.githubusercontent.com/8826424/83339203-71bb0780-a299-11ea-81d2-058b260c3885.png)
 
