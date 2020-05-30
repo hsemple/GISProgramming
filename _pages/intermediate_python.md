@@ -2,7 +2,7 @@
 permalink: /intermediate_python/
 title: "Intermediate Python" 
 sidebar: 
-    nav:"docs"
+   nav:"docs"
  ---   
 
 
