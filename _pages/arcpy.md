@@ -8,28 +8,24 @@ sidebar:
 
 
 
-ArcPy is a commericial GIS library created by ESRI for use by its software ArcMap and ArcGIS Pro.  It provides access to all the tools in ArcToolbox.  Tools are accessed as functions using the following syntax :  
-          arcpy.<toolname_toolboxalias>(<parameters>)
+ArcPy is a commercial GIS library created by ESRI for use by its software ArcMap and ArcGIS Pro.  It provides access to all the tools in ArcToolbox.  Tools are accessed as functions using the following syntax :  
+          "arcpy.<toolname_toolboxalias>(<parameters>)"
 
  
 
-The illustration below shows how the slope tool is accessed via the dialog box and through a python function.
+Typically tools are accessed through dialog box, as shown in the illustration below. However, arcpy accesses the tool throuh code.  In addition, ArcPy can be used to create user defined tools and dialogs.   
+
+ ![image](https://user-images.githubusercontent.com/8826424/83334084-132e6300-a272-11ea-93e2-d3c67f3eaa71.png)
 
  
-
- 
-
 Information on tool names and tool parameters can be obtained from ArcPy's documentation. Note that the tool names often  vary a bit from their names in ArcToolbox. Below, are examples of full scripts for executing the slope tool.
 
  
 
  
+### Script Samples
 
-Calculate Slope
-
-1. Calculate Slope using Python's Window within ArcMap 
-
-The two scripts below show how to calculate slope using ArcPy. Run the scripts in either the ArcPy Window within ArcGIS Pro or ArcMap,  Idle in Python 2.7 using ArcMap, or from Jupyter Notebook in ArcGIS Pro.
+Calculate Slope using Python's Window within ArcMap 
 
     import arcpy
     from arcpy import env
@@ -40,7 +36,7 @@ The two scripts below show how to calculate slope using ArcPy. Run the scripts i
 
  
 <br> 
-2. Calculate Slope from IDLE  or Jupyter
+Calculate Slope from IDLE  or Jupyter
 
        # Import system modules
        import arcpy
@@ -151,7 +147,7 @@ Calculate Slope and Aspect Using a Single Script
  
  <br>
  
- Extract DEMs for each of Michigan's 83 Counties from a Single Michigan DEM
+ Extract DEMs for each of Michigan's 83 Counties from a Single State-wide DEM
 
     import arcpy
     from arcpy.sa import *
@@ -168,7 +164,7 @@ Calculate Slope for all Counties in Michigan
 
     import arcpy
     from arcpy.sa import *
-    arcpy.env.workspace = 'C:/Users/Hugh/Desktop/Wayne/DEMs'
+    arcpy.env.workspace = 'C:/Users/.../DEMs'
     arcpy.env.overwriteOutput = True
     rasterlist = arcpy.ListRasters() # Get a list of input rasters
 
@@ -185,7 +181,7 @@ Watershed Delineation
     from arcpy.sa import * 
     try:
         # Set environment settings
-        env.workspace = "C:/Users/Hugh/Desktop/Stowe_Dataset-1/Stowe_Watersheds"
+        env.workspace = "C:/Users/.../Stowe_Watersheds"
         env.overwriteOutput = True
 
 
