@@ -41,7 +41,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 
 ## Code Snippets
 
-Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
+#### Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
 
     import matplotlib.pyplot as plt
     import geopandas as gpd
@@ -61,7 +61,7 @@ Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
 <br>
  
 
-Plotting a Thematic Map
+#### Plotting a Thematic Map
 
     import pandas as pd
     import geopandas
@@ -82,7 +82,7 @@ Plotting a Thematic Map
 <br>
  
 
-Plotting a Shapefile Using PyShp
+#### Plotting a Shapefile Using PyShp
 The geopandas code is preferred over the code below but I include here for the insights it provides into the structure of shapefiles, i.e., parts and points, and how these are accessed and manipulated.  
   
     import shapefile as shp
@@ -112,7 +112,7 @@ The geopandas code is preferred over the code below but I include here for the i
  <br>
  
 
-Displaying a Raster Using GDAL
+#### Displaying a Raster Using GDAL
  
     import numpy as np
     import gdal
@@ -130,7 +130,7 @@ Displaying a Raster Using GDAL
  <br>
  
 
-Displaying a Three-band Raster with GDAL
+#### Displaying a Three-band Raster with GDAL
 
     import numpy as np
     from osgeo import gdal
@@ -156,7 +156,7 @@ Displaying a Three-band Raster with GDAL
  
  <br>
   
-Displaying a Three-band Raster with  Rasterio
+#### Displaying a Three-band Raster with  Rasterio
 
 Rasterio is a popular open source Python library used for viewing and manipulating rasters.  Rasterio utilizes the gdal library to display rasters. With rasterio, viewing a raster can be done with just a few lines of code, like the example below. 
 
@@ -181,5 +181,6 @@ Rasterio has a show( ) method for displaying rasters. However, the library also 
   
 
 <br>
+#### Displaying Satellite Imagery with Rasterio
 [Displaying True color and False color imagery with Rasterio](https://automating-gis-processes.github.io/CSC/notebooks/L5/plotting-raster.html)
 
