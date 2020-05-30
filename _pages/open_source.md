@@ -223,5 +223,114 @@ Once Rasterio is installed, run the sample script below.
     plt.show()
     
 
+<br>
 
+### Querying Rasters 
+
+#### Find all places with elevation greater than 2500 ft  (Method 1)
+
+    import gdal
+    import matplotlib.pyplot as plt
+
+    #Open raster and read number of rows, columns, bands
+    dataset = gdal.Open("C:/Users/.../N47E010.hgt")
+    band = dataset.GetRasterBand(1)
+
+    elevation = band.ReadAsArray(0,0,cols,rows)
+
+    a2500 = elevation > 2500
+
+    plt.imshow(a2500)
+    plt.show()
+
+
+<br>
+
+#### Find all places with elevation greater than 2500 ft  (Method 2)
+
+    import gdal
+    import matplotlib.pyplot as plt
+
+    #Open raster and read number of rows, columns, bands
+    dataset = gdal.Open("C:/Users/Hugh/Desktop/N47E010.hgt")
+    band = dataset.GetRasterBand(1)
+
+    cols = dataset.RasterXSize
+    rows = dataset.RasterYSize
+
+    elevation = band.ReadAsArray(0,0,cols,rows)
+
+    outData = np.zeros((rows, cols))
+
+    for y in range(rows):
+         for x in range(cols):
+              if elevation[y, x] > 2500:
+                  outData[y, x] = 1
+              else:
+                  outData[y, x] = 0
+
+    plt.imshow(outData)
+    plt.show()
+
+
+<br>
+
+#### Perform Neighborhood Analysis
+
+In GIS, many operations are based on neighborhood filters. This script illustrates the basic procedure for accessing and processing neighborhood data based on a 3 x 3 filter.
+
+ 
+Raster Neighborhood
+
+ 
+
+    import gdal
+    import matplotlib.pyplot as plt
+    dataset = gdal.Open("N47E010.hgt")
+    cols = dataset.RasterXSize
+    rows = dataset.RasterYSize
+    allBands = dataset.RasterCount
+    band = dataset.GetRasterBand(1)
+
+    elev = band.ReadAsArray(0,0,cols,rows).astype(np.int)
+
+    outData = np.zeros((rows, cols), np.int)
+    for i in range(1,rows-1): # skipping first & last
+         for j in range(1,cols-1):
+             outData[i,j] = (elev[i-1,j-1] + elev[i-1,j] + elev[i-1,j+1] +  elev[i,j-1] + elev[i,j] + elev[i,j+1] + 
+                            elev[i+1,j-1] + elev[i+1,j] + elev[i+1,j+1]) / 9.0
+
+    print (outData)
+    plt.imshow(outData)
+    plt.show()
+
+
+<br>
+
+#### Kernels for Slope Calculation
+Slope calculation in GIS requires the estimation of gradients along two axes.  Two methods for calculating gradients are the central differences method and the Horn (1981) method. The former uses the values of two neighboring cells, while the Horn (1981), suitable for rough surfaces, uses the values of six neighboring cells.
+
+ 
+Central differences
+Gradients along the two axes are calculated as follows:  
+dz/dx = [ Elev(i, j + 1) - Elev(i, j - 1) ] / 2 cell_size  
+dz/dy = [ Elev(i - 1, j) - Elev(i + 1, j) ] / 2 cell_size.
+
+In the case of cells at the grid edge, this method can be replaced by the first difference method, in which the central cell itself provides the value for the lateral, missing data.
+
+Neighborhood weights
+
+ 
+Horn method
+The gradient estimation along an axis derives from the values of six cells in a 3x3 kernel (Fig. 4). The weight applied to each cell depends on its position relative to the central cell. This method is the most suitable for rough surfaces.
+
+dz/dx = [ (Elev(i-1, j + 1) + 2 Elev(i, j + 1) + Elev(i+1, j + 1)) - (Elev(i-1, j - 1) + 2 Elev(i, j - 1) + Elev(i+1, j - 1)] / 8 cell_size  
+
+dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1, j-1) + 2 Elev(i + 1, j) + Elev(i + 1, j+1)) ] / 8 cell_size
+
+ 
+
+Raster Filter
+
+ 
 
