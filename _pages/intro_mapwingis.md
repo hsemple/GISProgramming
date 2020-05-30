@@ -139,8 +139,8 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
     Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click. 
         mapMain.ZoomToMaxExtents() 
     End Sub
- 
- 
+    
+
 26. The complete code blocks should appear as shown below. Save your project. 
 
    
@@ -153,7 +153,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
     
 ## Section 2. Displaying the Shapefile's Attribute Table  
 
-1. In this section, we will write code to allow users to view the attribute table associated with each shapefile loaded into the viewing area.  The development strategy is to create a new Windows Form and place a DataGridView object on it. The DataGridView will then be used to add data from attribute tables to the form.  Note: the code for this section comes from Brian Marchionni's <a href = "http://read.pudn.com/downloads152/ebook/662579/IntroductionCustomGIS.pdf"<Introduction to Custom GIS Application Development for Windows </a> <br>
+1. In this section, we will write code to allow users to view the attribute table associated with each shapefile loaded into the viewing area.  The development strategy is to create a new Windows Form and place a DataGridView object on it. The DataGridView will then be used to add data from attribute tables to the form.  Note: the code for this section comes from Brian Marchionni's <a href = "http://read.pudn.com/downloads152/ebook/662579/IntroductionCustomGIS.pdf">Introduction to Custom GIS Application Development for Windows </a> <br>
 
 2. Right click your project name in the Solution Explorer and select Add, then Class, then Windows Form.   A new form will be added to the project.
 
@@ -179,23 +179,22 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
         End Sub
   
 
-7. This code is part of the setup that allows communication between the main form and the attribute table form. Whenever the user clicks the Show Attribute Table button, the a reference to the current shapefile is obtained. Secondly, a new instance of the AttributeTable form will be created and then displayed with the shapefile's information that was passed to it.
+8. This code is part of the setup that allows communication between the main form and the attribute table form. Whenever the user clicks the Show Attribute Table button, the a reference to the current shapefile is obtained. Secondly, a new instance of the AttributeTable form will be created and then displayed with the shapefile's information that was passed to it.
 
 
-8. Return to the AttributeTable form by right clicking on AttributeTable.vb in the Solution Explorer and selecting View Code from the drop down menu.   We will now write code so that the attribute table can receive information from the main form whenever it is called.  Declare a class variable called pshapeFile of type MapWinGIS.Shapefile. Write the code as follows:
+9. Return to the AttributeTable form by right clicking on AttributeTable.vb in the Solution Explorer and selecting View Code from the drop down menu.   We will now write code so that the attribute table can receive information from the main form whenever it is called.  Declare a class variable called pshapeFile of type MapWinGIS.Shapefile. Write the code as follows:
   
-  <pre>
-    Dim pShapeFile As MapWinGIS.Shapefile
- 
- <pre>
-
-
-9. Create a new Subroutine called New(…) with parameters ByRef **myShapeFile** As MapWinGIS.Shapefile. Create the subroutine by copying the entire code below including the wrapper and pasting it below the Class declaration you made in the last section. A line will appear separating the two codes.  
     
-       Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
-       pShapeFile = myShapeFile
-       InitializeComponent()
-       End Sub
+        Dim pShapeFile As MapWinGIS.Shapefile
+ 
+
+
+10. Create a new Subroutine called New(…) with parameters ByRef **myShapeFile** As MapWinGIS.Shapefile. Create the subroutine by copying the entire code below including the wrapper and pasting it below the Class declaration you made in the last section. A line will appear separating the two codes.  
+    
+        Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
+        pShapeFile = myShapeFile
+        InitializeComponent()
+        End Sub
      
 10. The variable passed to this subroutine will is **myShapeFile** and will be assigned to the varibale pShapefile.  The InitializeComponent method will build and initialize the form that will hold new instances of the attribute table.  See this link for more information on [InitializeComponent](https://www.youtube.com/watch?v=39RoXSr7d4o)
 
