@@ -33,13 +33,13 @@ docs:
       - title: "ArcGIS Online"
         url: /docs/layouts/
 
-  - title: MapWinGIS
+  - title: Custom Desktop GIS Application
     children:
       - title: "How MapWinGIS Works"
         url: /docs/utility-classes/
       - title: "Intro to C#"
         url: /docs/helpers/
-      - title: "Building a Simple Map Viewer Application"
+      - title: "Building a Simple Map Viewer App"
         url: /intro_mapwingis/ 
       - title: "Extending the Map Viwer Application"
         url: /docs/pages/
