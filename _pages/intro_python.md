@@ -5,7 +5,8 @@ sidebar:
   nav: "docs" 
 ---
 
-<h3>Topics</h3>
+
+Python programming in GIS works by using the Python language to manipulate spatial objects contained in the large number of Python-based GIS libraries that available. So, as beginner, you have to learn basic Python programming concepts and then move on to use this knowledge to work with the Python GIS libraries.  Below, I list basic Python concepts to master.  
 
 <h3>Unit 1</h3>
 <ul>
@@ -38,7 +39,7 @@ sidebar:
 <li>  For Loops  </li>
 <li>  Functions  </li>
 <li>  File handling  </li>
-<li>  Creating Graphs using Matplotlib, Pandas  </li>
+<li>  Plotting graphs using Matplotlib, Pandas, etc  </li>
 <li>  List Comprehension  </li>
 <li>	Arrays  </li>
 </ul>
