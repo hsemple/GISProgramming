@@ -19,34 +19,31 @@ As a beginner, you must first learn basic Python programming concepts.  Afterwar
 <li> Casting </li>
 <li> Modules </li>
 <li> Standard and third-party libraries  </li>
-<li> Running simple programs </li>
-<li> Creating simple programs</li>
+<li> Creating and running simple programs </li>
 <li>	Conditional statements </li>
-<li>  While Loops  </li>
-<li>  For Loops  </li>
+<li>  While Loops, For Loops  </li>
 <li>  Functions  </li>
 <li>  File handling  </li>
 <li>  Plotting graphs using Matplotlib, Pandas, etc  </li>
 <li>  List Comprehension  </li>
 <li>	Arrays  </li>
-<li>	Classes/Objects </li>
-<li>  Inheritance </li>
+<li>	Classes/Objects;  Inheritance </li>
 <li>  Exceptions Handling </li>
 <li>  Debugging  </li>
 </ul>
 <br/>
  
-<i> Recommended Videos and Tutorials  </i>
+Recommended Videos and Tutorials   
 <ul> 
   <li> <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">Full Course Video </a> </li>  
   <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
-  <li><a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
+  <li> <a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
   <li>  <a href ="https://www.learnbyexample.org/python-if-else-elif-statement/">Learn by Example </a>  </li>
   <li>  <a href = "https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">PYnative  </a> </li>
   <li>	<a href = "https://www.guru99.com/reading-and-writing-files-in-python.html">Guru99 </a>  </li>
   <li>  <a href = "https://www.softwaretestinghelp.com/python/python-file-reading-writing/">Python File Handling Tutorial </a>  
-<li> <a href = "https://realpython.com/inheritance-composition-python/">Real Python </a>  </li>
-<li> <a href = "https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-classes/cheatsheet">Code Academy </a>       </li>
+  <li>  <a href = "https://realpython.com/inheritance-composition-python/">Real Python </a>  </li>
+ <li> <a href = "https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-classes/cheatsheet">Code Academy </a>       </li>
 </ul>
 
 
