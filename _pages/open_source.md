@@ -63,6 +63,7 @@ Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
     plt.show()
 <br>
  
+
 Plotting a Thematic Map
 
     import pandas as pd
@@ -83,8 +84,8 @@ Plotting a Thematic Map
     fig.savefig("/Users/.../map_export.png", dpi=300)
 <br>
  
-Plotting a Shapefile Using PyShp
 
+Plotting a Shapefile Using PyShp
 The geopandas code is preferred over the code below but I include here for the insights it provides into the structure of shapefiles, i.e., parts and points, and how these are accessed and manipulated.  
   
     import shapefile as shp
@@ -113,6 +114,7 @@ The geopandas code is preferred over the code below but I include here for the i
     
  <br>
  
+
 Displaying a Raster Using GDAL
  
     import numpy as np
@@ -130,7 +132,8 @@ Displaying a Raster Using GDAL
   
  <br>
  
-Displaying a three-band Raster with GDAL
+
+Displaying a Three-band Raster with GDAL
 
     import numpy as np
     from osgeo import gdal
@@ -154,9 +157,9 @@ Displaying a three-band Raster with GDAL
     plt.imshow(img)    
     plt.show()
  
- 
+ <br>
   
-Displaying a three-band Raster with  Rasterio
+Displaying a Three-band Raster with  Rasterio
 
 Rasterio is a popular open source Python library used for viewing and manipulating rasters.  Rasterio utilizes the gdal library to display rasters. With rasterio, viewing a raster can be done with just a few lines of code, like the example below. 
 
@@ -179,4 +182,7 @@ Rasterio has a show( ) method for displaying rasters. However, the library also 
     pyplot.show()
     
   
-  
+
+<br>
+[Displaying True color and False color imagery with Rasterio](https://automating-gis-processes.github.io/CSC/notebooks/L5/plotting-raster.html)
+
