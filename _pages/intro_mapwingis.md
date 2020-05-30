@@ -22,7 +22,8 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
   
 1. Start Visual Studio and Create a new project. 
 
-2. When the windows form appear as shown below, you are ready to start designing your custom application.<br>
+2. When the windows form appear as shown below, you are ready to start designing your custom application. 
+
     ![Image](https://user-images.githubusercontent.com/8826424/82830995-3083bb80-9e85-11ea-977b-9a81db45bb6c.jpg)   
  
  
@@ -69,7 +70,8 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 14. Click on the dropdown to the top left of the ToolStrip and select "Button".  A button will be added to the ToolStrip. 
  
 
-15. Click the dropdown again and this time select "Separator".  A separator or space will be added next to the button. Click button again and add another button. Repeat the process until you have added five buttons with appropriate spaces between them, as shown below.<br>
+15. Click the dropdown again and this time select "Separator".  A separator or space will be added next to the button. Click button again and add another button. Repeat the process until you have added five buttons with appropriate spaces between them, as shown below. 
+
     ![image](https://user-images.githubusercontent.com/8826424/82845237-bfa6c880-9eb1-11ea-92f6-ef9aa72de4cb.png)
 
 
@@ -86,7 +88,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 
 19. In the form view, double click on the first button in the Toolstrip, i.e., the Add Layer button, to view its code stub. Type the code below into the code stub.      
    
-        Private Sub btnAddShapefile_Click(sender As Object, e As EventArgs) Handles btnAddShapefile.Click. 
+    Private Sub btnAddShapefile_Click(sender As Object, e As EventArgs) Handles btnAddShapefile.Click. 
 	Dim shpfile As New MapWinGIS.Shapefile
         Dim openDlg As New OpenFileDialog
         'Initialize Dialog
@@ -102,9 +104,9 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
         End If
     End Sub
  
-<br>
-    
-    ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png)
+
+  
+  ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png)
 
 
 20. To see if your code works, click on the green play button on toolbar, or press F5.  The application will build and then display a form with nothing in it. Click the add layer button and navigate to a shapefile on your computer and select it. It should appear in the application. In the illustration below, I added a Washtenaw County boundary layer and a landmarks layer to the application for viewing.  By default, an OSM layer is added as a basemap. Click on the Stop Debugging icon to return to the coding environment.
@@ -117,7 +119,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn
     End Sub
 
-     
+    
  
     Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click. 
         mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut
