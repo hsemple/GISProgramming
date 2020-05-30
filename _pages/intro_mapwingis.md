@@ -207,13 +207,13 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
      
      
  
- 13. At the very too of the page before the public declarations add the following code.
+13. At the very too of the page before the public declarations add the following code.
     
-    Imports System
-    Imports System.IO
-    Imports System.Windows.Forms
-    Imports AxMapWinGIS
-    Imports MapWinGIS
+        Imports System
+        Imports System.IO
+        Imports System.Windows.Forms
+        Imports AxMapWinGIS
+        Imports MapWinGIS
     
 	
 	
@@ -247,7 +247,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
     
     	
 
-15.  The first two lines in the code above will create a temporary datatable and datarow. These will be populated with data from the shapefiles attribute table. Column is an attribute of myDataTable. The "For i ..." code block will loop through the column names found in the shapefile's attribute and add them to the myDataTable columns.  
+15. The first two lines in the code above will create a temporary datatable and datarow. These will be populated with data from the shapefiles attribute table. Column is an attribute of myDataTable. The "For i ..." code block will loop through the column names found in the shapefile's attribute and add them to the myDataTable columns.  
 
 
 16. The "For .. j" code block will get the number of shapes in the shapefile's variable (pShapeFile) then loop through each shape to create new rows. Then, for each field, the For k code block will add the cell values for the appropriate row/field position. Finally the temporary row is added to the myDataTable variable.  The DataGridView1.DataSource line sets the data source to be equal to myDataTable.
@@ -260,14 +260,13 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
  
 18. That's it. In the next section, we illustrate how to compile your application so that it could be distributed to end users.
 
-<br>
-<p>
+
 
 
 
 ##  Section 3. Compiling Your Application
 
-The details of compiling your application can be found on many websites.  Below, I provide an overview of the process using information found at this [link](https://msdn.microsoft.com/en-us/library/jj730426.aspx) 
+The details of compiling your application can be found on many websites.  Below, I provide an overview of the process using information found at this [link](https://msdn.microsoft.com/en-us/library/jj730426.aspx). 
 
 1. Quit running the program and return to the development environment.  Click on Project then Properties to access the properties of your application.
  
