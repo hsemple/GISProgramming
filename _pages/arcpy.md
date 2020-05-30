@@ -228,7 +228,7 @@ Information on tool names and tool parameters can be obtained from ArcPy's docum
  <br>
  
  
-#### Calcualte Viewshed  
+#### Calculate Viewshed  
 
 This example determines the surface locations visible to a set of observers defined in a shapefile.
 
