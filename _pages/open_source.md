@@ -279,11 +279,9 @@ Once Rasterio is installed, run the sample script below.
 
 In GIS, many operations are based on neighborhood filters. This script illustrates the basic procedure for accessing and processing neighborhood data based on a 3 x 3 filter.
 
- 
-Raster Neighborhood
+ ![image](https://user-images.githubusercontent.com/8826424/83339203-71bb0780-a299-11ea-81d2-058b260c3885.png)
 
  
-
     import gdal
     import matplotlib.pyplot as plt
     dataset = gdal.Open("N47E010.hgt")
@@ -310,18 +308,19 @@ Raster Neighborhood
 #### Kernels for Slope Calculation
 Slope calculation in GIS requires the estimation of gradients along two axes.  Two methods for calculating gradients are the central differences method and the Horn (1981) method. The former uses the values of two neighboring cells, while the Horn (1981), suitable for rough surfaces, uses the values of six neighboring cells.
 
- 
-Central differences
+
+Central Differences Method<br>
 Gradients along the two axes are calculated as follows:  
 dz/dx = [ Elev(i, j + 1) - Elev(i, j - 1) ] / 2 cell_size  
 dz/dy = [ Elev(i - 1, j) - Elev(i + 1, j) ] / 2 cell_size.
 
 In the case of cells at the grid edge, this method can be replaced by the first difference method, in which the central cell itself provides the value for the lateral, missing data.
 
-Neighborhood weights
+
+![image](https://user-images.githubusercontent.com/8826424/83339212-80a1ba00-a299-11ea-8150-f97b4b6e8e8f.png)
 
  
-Horn method
+Horn Method <br>
 The gradient estimation along an axis derives from the values of six cells in a 3x3 kernel (Fig. 4). The weight applied to each cell depends on its position relative to the central cell. This method is the most suitable for rough surfaces.
 
 dz/dx = [ (Elev(i-1, j + 1) + 2 Elev(i, j + 1) + Elev(i+1, j + 1)) - (Elev(i-1, j - 1) + 2 Elev(i, j - 1) + Elev(i+1, j - 1)] / 8 cell_size  
@@ -329,8 +328,5 @@ dz/dx = [ (Elev(i-1, j + 1) + 2 Elev(i, j + 1) + Elev(i+1, j + 1)) - (Elev(i-1, 
 dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1, j-1) + 2 Elev(i + 1, j) + Elev(i + 1, j+1)) ] / 8 cell_size
 
  
-
-Raster Filter
-
- 
+![image](https://user-images.githubusercontent.com/8826424/83339214-90b99980-a299-11ea-9179-6dfa3b9056c9.png)
 
