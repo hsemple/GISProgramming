@@ -86,10 +86,10 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 18. We will now add code to the map control to make it display shapefiles, and to each button to enable map navigation.  To keep things simple, we assume that the shapefiles are stored in a file folder. For an enterprise GIS, the data are stored in a database software like Postgresql and the map viewer application must access the database to retrieve data.
 
 
-19. In the form view, double click on the first button in the Toolstrip, i.e., the Add Layer button, to view its code stub. Type the code below into the code stub.      
-   
-    Private Sub btnAddShapefile_Click(sender As Object, e As EventArgs) Handles btnAddShapefile.Click. 
-	Dim shpfile As New MapWinGIS.Shapefile
+19. In the form view, double click on the first button in the Toolstrip, i.e., the Add Layer button, to view its code stub. Type the code below into the code stub.
+
+        Private Sub btnAddShapefile_Click(sender As Object, e As EventArgs) Handles btnAddShapefile.Click
+	     Dim shpfile As New MapWinGIS.Shapefile
         Dim openDlg As New OpenFileDialog
         'Initialize Dialog
         openDlg.Filter = "Supported Formats|*.shp"
@@ -102,7 +102,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
             'Add the layer to the map
             mapMain.AddLayer(shpfile, True)
         End If
-    End Sub
+        End Sub
  
 
 20. The illustration below shows the code in VB.Net
@@ -117,21 +117,21 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 
 22. Add Code to the Navigation Buttons. Add code to the subroutine stubs for each of the Click event for each of your buttons. Add only the code in blue to the to the wrapper for each button. 
 
-    Private Sub btnZoomIn_Click(sender As Object, e As EventArgs) Handles btnZoomIn.Click. 
-       mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn
-    End Sub
+        Private Sub btnZoomIn_Click(sender As Object, e As EventArgs) Handles btnZoomIn.Click. 
+          mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn
+        End Sub
  
 23. Add the code below to the zoom-out button.
 
-    Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click. 
-        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut
-    End Sub
+        Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click. 
+          mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut
+        End Sub
 
 24. Add the code below to the pan button.
-
-    Private Sub btnPan_Click(sender As Object, e As EventArgs) Handles btnPan.Click. 
-       mapMain.CursorMode = MapWinGIS.tkCursorMode.cmPan  
-    End Sub
+    
+        Private Sub btnPan_Click(sender As Object, e As EventArgs) Handles btnPan.Click. 
+          mapMain.CursorMode = MapWinGIS.tkCursorMode.cmPan  
+        End Sub
  
  25. Add the code below to the full extent button
 
@@ -148,38 +148,35 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
     
     ![image](https://user-images.githubusercontent.com/8826424/82833545-43e65500-9e8c-11ea-8f12-043129b68702.png)
     
-<br>
-<p>
 
-
-
-</h3> Section 2. Displaying the Shapefile's Attribute Table </h3>
-
-In this section, we will write code to allow users to view the attribute table associated with each shapefile loaded into the viewing area.  The development strategy is to create a new Windows Form and place a DataGridView object on it. The DataGridView will then be used to add data from attribute tables to the form.  Note: the code for this section comes from Brian Marchionni's <a href = "http://read.pudn.com/downloads152/ebook/662579/IntroductionCustomGIS.pdf"<Introduction to Custom GIS Application Development for Windows </a> <br>
-
-1. Right click your project name in the Solution Explorer and select Add, then Class, then Windows Form.   A new form will be added to the project.
-
-2. Scroll to the bottom of the dialog and rename the form AttributeTable.vb.  Click Add.
-
-3. Click on Toolbox to the left edge of Visual Studio and look for Data then DataGridView. Visual Studio's DataGridView control provides a very flexible way to display data in a tabular format. The data may come from various source. In this instance, we will use the DataGridView to view the contents of the attribute table of the shapefile.
-
-4. Drag the DataGridView control to the center of the AttributeTable form.  Click on the DataGridView control and select properties. When the properties window appears, look for Layout. Under Layout, look for the attribute named "Dock" and change it to "Fill". You may have to select the large rectangle in the center.
-
-5. Now return to the main form, Form1.vb [Design], to create a button that will be used to open the attribute table. Add a button to ToolStrip1 named "btnShowDataGrid". Create an icon for this button, and change the Text attribute from ToolStripButton1 to "Show Attribute Table.
-
-6. Now we will write code to establish communication between the main form and the attribute table form as well as opening the attribute table.  Double click the btnShowDataGrid button to create an event handler for the button.  Set up the Private Sub btnShowDataGrid_Click(…) sub as shown below. 
 
     
-    Private Sub ToolStripButton8_Click(sender As Object, e As EventArgs)Handles BtnShowDataGrid.Click.
-    'Dim shpfile As New MapWinGIS.Shapefile
-    Dim hndshpfile As Integer = MapMain.NumLayers - 1 ' Get the handle of the layer
-    'Pass the handle of the shapefile
-    shpfile = MapMain.get_GetObject(hndshpfilee)
+## Section 2. Displaying the Shapefile's Attribute Table  
+
+1. In this section, we will write code to allow users to view the attribute table associated with each shapefile loaded into the viewing area.  The development strategy is to create a new Windows Form and place a DataGridView object on it. The DataGridView will then be used to add data from attribute tables to the form.  Note: the code for this section comes from Brian Marchionni's <a href = "http://read.pudn.com/downloads152/ebook/662579/IntroductionCustomGIS.pdf"<Introduction to Custom GIS Application Development for Windows </a> <br>
+
+2. Right click your project name in the Solution Explorer and select Add, then Class, then Windows Form.   A new form will be added to the project.
+
+3. Scroll to the bottom of the dialog and rename the form AttributeTable.vb.  Click Add.
+
+4. Click on Toolbox to the left edge of Visual Studio and look for Data then DataGridView. Visual Studio's DataGridView control provides a very flexible way to display data in a tabular format. The data may come from various source. In this instance, we will use the DataGridView to view the contents of the attribute table of the shapefile.
+
+5. Drag the DataGridView control to the center of the AttributeTable form.  Click on the DataGridView control and select properties. When the properties window appears, look for Layout. Under Layout, look for the attribute named "Dock" and change it to "Fill". You may have to select the large rectangle in the center.
+
+6. Now return to the main form, Form1.vb [Design], to create a button that will be used to open the attribute table. Add a button to ToolStrip1 named "btnShowDataGrid". Create an icon for this button, and change the Text attribute from ToolStripButton1 to "Show Attribute Table.
+
+7. Now we will write code to establish communication between the main form and the attribute table form as well as opening the attribute table.  Double click the btnShowDataGrid button to create an event handler for the button.  Set up the Private Sub btnShowDataGrid_Click(…) sub as shown below.
+
+        Private Sub ToolStripButton8_Click(sender As Object, e As EventArgs)Handles BtnShowDataGrid.Click.
+        'Dim shpfile As New MapWinGIS.Shapefile
+        Dim hndshpfile As Integer = MapMain.NumLayers - 1 ' Get the handle of the layer
+        'Pass the handle of the shapefile
+        shpfile = MapMain.get_GetObject(hndshpfilee)
     
-    Dim myTableForm As New FormTable(shpfile)
-    myTableForm.ShowDialog()
+        Dim myTableForm As New FormTable(shpfile)
+        myTableForm.ShowDialog()
     
-    End Sub
+        End Sub
   
 
 7. This code is part of the setup that allows communication between the main form and the attribute table form. Whenever the user clicks the Show Attribute Table button, the a reference to the current shapefile is obtained. Secondly, a new instance of the AttributeTable form will be created and then displayed with the shapefile's information that was passed to it.
@@ -195,10 +192,10 @@ In this section, we will write code to allow users to view the attribute table a
 
 9. Create a new Subroutine called New(…) with parameters ByRef **myShapeFile** As MapWinGIS.Shapefile. Create the subroutine by copying the entire code below including the wrapper and pasting it below the Class declaration you made in the last section. A line will appear separating the two codes.  
     
-    Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
-           pShapeFile = myShapeFile
-           InitializeComponent()
-    End Sub
+       Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
+       pShapeFile = myShapeFile
+       InitializeComponent()
+       End Sub
      
 10. The variable passed to this subroutine will is **myShapeFile** and will be assigned to the varibale pShapefile.  The InitializeComponent method will build and initialize the form that will hold new instances of the attribute table.  See this link for more information on [InitializeComponent](https://www.youtube.com/watch?v=39RoXSr7d4o)
 
@@ -225,30 +222,31 @@ In this section, we will write code to allow users to view the attribute table a
 	
 13. Add the following under public	
    
-    Public Class AttributeTable
-    Dim pMyShapeFile As MapWinGIS.Shapefile
-    Dim MyDataRow As DataRow
-    Dim MyDataTable As New DataTable
-    Dim dlg As New frmMain
+        Public Class AttributeTable
+        Dim pMyShapeFile As MapWinGIS.Shapefile
+        Dim MyDataRow As DataRow
+        Dim MyDataTable As New DataTable
+        Dim dlg As New frmMain
 	
 	
-    Private Sub FormTable_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-    For i As Integer = 0 To pMyShapeFile.NumFields - 1
+        Private Sub FormTable_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        For i As Integer = 0 To pMyShapeFile.NumFields - 1
             MyDataTable.Columns.Add(pShapeFile.Field(i).Name)
-     Next i
+        Next i
      
-     For j As Integer = 0 To pMyShapeFile.NumShapes - 1
-     MyDataRow = MyDataTable.NewRow
-     For k As Integer = 0 To pMyShapeFile.NumFields - 1
+        For j As Integer = 0 To pMyShapeFile.NumShapes - 1
+        MyDataRow = MyDataTable.NewRow
+        For k As Integer = 0 To pMyShapeFile.NumFields - 1
          MyDataRow(k) = pShapeFile.CellValue(k, j)
           Next k
           MyDataTable.Rows.Add(MyDataRow)
-     Next
-     'Link the datagrid view to the temporary data source tabble 
-      DataGridView1.DataSource = MyDataTable
-      End Sub
+        Next
+     
+        'Link the datagrid view to the temporary data source tabble 
+         DataGridView1.DataSource = MyDataTable
+         End Sub
 	
-    End Class
+        End Class
     
     	
 
@@ -267,6 +265,7 @@ In this section, we will write code to allow users to view the attribute table a
 
 <br>
 <p>
+
 
 ##  Section 3. Compiling Your Application
 The details of compiling your application can be found on many websites.  Below, I provide an overview of the process.  using information found at this [link](https://msdn.microsoft.com/en-us/library/jj730426.aspx) 
