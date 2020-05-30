@@ -35,16 +35,14 @@ docs:
 
   - title: Custom Desktop GIS Application
     children:
-      - title: "How MapWinGIS Works"
-        url: /docs/utility-classes/
       - title: "Intro to C#"
-        url: /docs/helpers/
+        url: /C#/
       - title: "Building a Simple Map Viewer App"
         url: /intro_mapwingis/ 
       - title: "Extending the Map Viwer Application"
-        url: /docs/pages/
+        url: /mapviewer_extended/
       - title: "Sample Codes"
-        url: /docs/collections/
+        url: /sample_scripts/
  
 
      
