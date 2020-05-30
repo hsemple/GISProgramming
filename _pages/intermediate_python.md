@@ -1,5 +1,5 @@
 ---
-permalinks: /intermediate_python/
+permalink: /intermediate_python/
 title: "Intermediate Python" 
 sidebar: 
     nav:"docs"
