@@ -62,9 +62,9 @@ plugins:
 
 # Site Author
 author:
-  name             : "Hugh Semple"
+  #name             : "Hugh Semple"
   #avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Geographer"
+  #bio              : "Geographer"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
