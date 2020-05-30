@@ -8,6 +8,7 @@ sidebar:
 
 
 
+### Open Source GIS Libraries
 Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some of the popular open source libraries used in the geospatial community. The list is in no paraticualr order. Selection of particular libraries depend on the task that needs to be carried out.   
 
 
@@ -30,7 +31,7 @@ Once you have mastered basic concepts in Python, you are ready to take on workin
 <br>
 Below, you will find links and code snippets to common tasks in GIS that are made possible using these libraries.  
 
-## Short Course and Tutorials
+### Short Course and Tutorials
 * [Short Course in manipulating Python Geospatial Libraries](https://automating-gis-processes.github.io/CSC18/lessons/L1/Intro-Python-GIS.html)
 * [Intro to Coordinate Reference Systems in Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/)
 * [Plotting Coordinates](https://idlecoding.com/transverse-mercator-with-python/)
@@ -39,7 +40,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 
 <br>
 
-## Code Snippets
+### Code Snippets
 
 #### Displaying a Shapefile's Attribute Table and Geometry Using Geopandas
 
