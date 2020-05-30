@@ -224,4 +224,39 @@ Watershed Delineation
         print (e)
 
  
+ <br>
+ 
+ 
+ Calcualte Viewshed  
+
+This example determines the surface locations visible to a set of observers defined in a shapefile.
+
+    # Name: Viewshed_3d_Ex_02.py
+    # Description: Determines the raster surface locations visible to a set of
+    #              observer features.
+    # Requirements: 3D Analyst Extension
+
+    # Import system modules
+    import arcpy
+    from arcpy import env
+
+    # Set environment settings
+    env.workspace = "C:/data"
+
+    # Set local variables
+    inRaster = "elevation"
+    inObserverFeatures = "observers.shp"
+    outViewshed = "C:/output/outvwshd02"
+    zFactor = 2
+    useEarthCurvature = "CURVED_EARTH"
+    refractivityCoefficient = 0.15
+
+    # Check out the ArcGIS 3D Analyst extension license
+    arcpy.CheckOutExtension("3D")
+
+    # Execute Viewshed
+    arcpy.Viewshed_3d(inRaster, inObserverFeatures, outViewshed, zFactor,
+                useEarthCurvature, refractivityCoefficient)
+
+
 
