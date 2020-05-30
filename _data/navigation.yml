@@ -17,8 +17,8 @@ docs:
         url: /open_source/
       - title: "ArcPy"
         url: /arcpy/
-      - title: "Advanced Python"
-        url: /advanced_python/
+      - title: "Intermediate Python"
+        url: /intermediate_python/
 
   - title: Web Mapping
     children:
