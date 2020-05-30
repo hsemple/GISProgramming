@@ -8,9 +8,21 @@ sidebar:
 
 
 
-## Topics Covered
+## Topics
 * Connecting to Databases
-* Web Scraping
 * GUI-based Applications
-* Introduction to Django
-* Building Web Applications with Python
+* Comprehension (Multiple and Nested)
+* Extended Keyword Arguments ("*args, ** kwargs")
+* Closures and Decorators
+* Generators and Iterators Protocol
+* Context Managers
+* @staticmethod and @classmethod
+* Inheritance and Encapsulation
+*Operator Overloading
+
+<br>
+
+### References
+* [Python Intermediate Topics](https://towardsdatascience.com/10-topics-python-intermediate-programmer-should-know-3c865e8533d6)
+* [Intermediate Python](https://book.pythontips.com/en/latest/)
+* [Getting Started with Python](https://data-flair.training/blogs/python-tutorials-home/)
