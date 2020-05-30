@@ -20,7 +20,8 @@ sidebar:
 <li> Running simple programs </li>
 <li> Creating simple programs</li>
 </ul>
-  
+
+I recommend looking at this <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">video </a> to get started with basic concepts in Python listed above </li>  
  
 <i> Recommended Tutorials  </i>
 <ul> 
