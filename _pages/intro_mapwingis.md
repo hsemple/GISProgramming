@@ -1,6 +1,6 @@
 ---
 permalink: /intro_mapwingis/
-title: "Introduction to MapWinGIS"
+title: "Building a Simple Application with MapWinGIS"
 sidebar:
   nav: "docs" 
 ---
