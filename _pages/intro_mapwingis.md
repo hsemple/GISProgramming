@@ -194,10 +194,10 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
         InitializeComponent()
         End Sub
      
-10. The variable passed to this subroutine will is **myShapeFile** and will be assigned to the varibale pShapefile.  The InitializeComponent method will build and initialize the form that will hold new instances of the attribute table.  See this link for more information on [InitializeComponent](https://www.youtube.com/watch?v=39RoXSr7d4o)
+11. The variable passed to this subroutine will is **myShapeFile** and will be assigned to the varibale pShapefile.  The InitializeComponent method will build and initialize the form that will hold new instances of the attribute table.  See this link for more information on [InitializeComponent](https://www.youtube.com/watch?v=39RoXSr7d4o)
 
 
-11.  Now, we will write code to display the attribute data of the shapefile that was passed to the new attribute table form. Double click on the title bar of the AttributeTable form to open the code stub for the AttributeTable_Load(...) event.   Add the following lines to the AttributeTable Load event.
+12.  Now, we will write code to display the attribute data of the shapefile that was passed to the new attribute table form. Double click on the title bar of the AttributeTable form to open the code stub for the AttributeTable_Load(...) event.   Add the following lines to the AttributeTable Load event.
     	
      
     Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
@@ -207,7 +207,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
      
      
  
- 12. At the very too of the page before the public declarations add the following code.
+ 13. At the very too of the page before the public declarations add the following code.
     
     Imports System
     Imports System.IO
@@ -217,7 +217,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
     
 	
 	
-13. Add the following under public	
+14. Add the following under public	
    
         Public Class AttributeTable
         Dim pMyShapeFile As MapWinGIS.Shapefile
@@ -247,25 +247,27 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
     
     	
 
-14.  The first two lines in the code above will create a temporary datatable and datarow. These will be populated with data from the shapefiles attribute table. Column is an attribute of myDataTable. The "For i ..." code block will loop through the column names found in the shapefile's attribute and add them to the myDataTable columns.  
+15.  The first two lines in the code above will create a temporary datatable and datarow. These will be populated with data from the shapefiles attribute table. Column is an attribute of myDataTable. The "For i ..." code block will loop through the column names found in the shapefile's attribute and add them to the myDataTable columns.  
 
 
-13. The "For .. j" code block will get the number of shapes in the shapefile's variable (pShapeFile) then loop through each shape to create new rows. Then, for each field, the For k code block will add the cell values for the appropriate row/field position. Finally the temporary row is added to the myDataTable variable.  The DataGridView1.DataSource line sets the data source to be equal to myDataTable.
+16. The "For .. j" code block will get the number of shapes in the shapefile's variable (pShapeFile) then loop through each shape to create new rows. Then, for each field, the For k code block will add the cell values for the appropriate row/field position. Finally the temporary row is added to the myDataTable variable.  The DataGridView1.DataSource line sets the data source to be equal to myDataTable.
 
 
-15. Run your program then load a shapefile. Click the Show Data Grid button. The attribute table should display, as shown below.
+17. Run your program then load a shapefile. Click the Show Data Grid button. The attribute table should display, as shown below.
 
     ![image](https://user-images.githubusercontent.com/8826424/82843822-730cbe80-9eac-11ea-8013-4bd4b694f364.png)
 
  
-16. That's it. In the next section, we illustrate how to compile your application so that it could be distributed to end users.
+18. That's it. In the next section, we illustrate how to compile your application so that it could be distributed to end users.
 
 <br>
 <p>
 
 
+
 ##  Section 3. Compiling Your Application
-The details of compiling your application can be found on many websites.  Below, I provide an overview of the process.  using information found at this [link](https://msdn.microsoft.com/en-us/library/jj730426.aspx) 
+
+The details of compiling your application can be found on many websites.  Below, I provide an overview of the process using information found at this [link](https://msdn.microsoft.com/en-us/library/jj730426.aspx) 
 
 1. Quit running the program and return to the development environment.  Click on Project then Properties to access the properties of your application.
  
