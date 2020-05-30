@@ -1,6 +1,7 @@
 ---
 permalink: /arcpy/
 title: "ArcPy"
+toc: true
 sidebar:
   nav: "docs" 
 ---
@@ -9,7 +10,7 @@ sidebar:
 
 
 ArcPy is a commercial GIS library created by ESRI for use by its software ArcMap and ArcGIS Pro.  It provides access to all the tools in ArcToolbox.  Tools are accessed as functions using the following syntax :  
-          "arcpy.<toolname_toolboxalias>(<parameters>)"
+          "arcpy.<toolname_toolboxalias><parameters>"
 
  
 
@@ -25,7 +26,7 @@ Information on tool names and tool parameters can be obtained from ArcPy's docum
  
 ### Script Samples
 
-Calculate Slope using Python's Window within ArcMap 
+#### Calculate Slope using Python's Window within ArcMap 
 
     import arcpy
     from arcpy import env
@@ -36,7 +37,7 @@ Calculate Slope using Python's Window within ArcMap
 
  
 <br> 
-Calculate Slope from IDLE  or Jupyter
+#### Calculate Slope from IDLE  or Jupyter
 
        # Import system modules
        import arcpy
@@ -62,7 +63,7 @@ Calculate Slope from IDLE  or Jupyter
 
  <br>
  
-Calculate Aspect 
+####  Aspect 
 
     # Import system modules
     import arcpy
@@ -83,7 +84,7 @@ Calculate Aspect
 
  
 <br>
-Script to Derive Hillshade
+#### Script to Derive Hillshade
 
     # Import system modules
     import arcpy
@@ -112,9 +113,9 @@ Script to Derive Hillshade
  
 <br>
  
-Integrating Multiple Tools into a Single Script to Automate Workflows
+#### Integrating Multiple Tools into a Single Script to Automate Workflows
 
-Calculate Slope and Aspect Using a Single Script
+#### Calculate Slope and Aspect Using a Single Script
 
     #Import system modules
     import arcpy
@@ -147,7 +148,7 @@ Calculate Slope and Aspect Using a Single Script
  
  <br>
  
- Extract DEMs for each of Michigan's 83 Counties from a Single State-wide DEM
+ E#### xtract DEMs for each of Michigan's 83 Counties from a Single State-wide DEM
 
     import arcpy
     from arcpy.sa import *
@@ -160,7 +161,7 @@ Calculate Slope and Aspect Using a Single Script
         print (str(row.getValue('NAME')))
 
 <br>
-Calculate Slope for all Counties in Michigan 
+#### Calculate Slope for all Counties in Michigan 
 
     import arcpy
     from arcpy.sa import *
@@ -173,7 +174,7 @@ Calculate Slope for all Counties in Michigan
         print ("s_" + str(raster))
 
 <br>
-Watershed Delineation
+#### Watershed Delineation
 
     # Import system modules
     import arcpy
@@ -227,7 +228,7 @@ Watershed Delineation
  <br>
  
  
- Calcualte Viewshed  
+#### Calcualte Viewshed  
 
 This example determines the surface locations visible to a set of observers defined in a shapefile.
 
