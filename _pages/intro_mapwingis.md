@@ -106,10 +106,10 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
  
 
 20. The illustration below shows the code in VB.Net
+    
+    ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png)
 
-  ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png)
-
-
+    
 
 21. To see if your code works, click on the green play button on toolbar, or press F5.  The application will build and then display a form with nothing in it. Click the add layer button and navigate to a shapefile on your computer and select it. It should appear in the application. In the illustration below, I added a Washtenaw County boundary layer and a landmarks layer to the application for viewing.  By default, an OSM layer is added as a basemap. Click on the Stop Debugging icon to return to the coding environment.
 
@@ -117,23 +117,24 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 
 22. Add Code to the Navigation Buttons. Add code to the subroutine stubs for each of the Click event for each of your buttons. Add only the code in blue to the to the wrapper for each button. 
 
+    
     Private Sub btnZoomIn_Click(sender As Object, e As EventArgs) Handles btnZoomIn.Click. 
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn
     End Sub
-
     
- 
+    
+    
     Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click. 
         mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut
     End Sub
     
-
+    
      
     Private Sub btnPan_Click(sender As Object, e As EventArgs) Handles btnPan.Click. 
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmPan  
     End Sub
     
-
+    
      
     Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click. 
         mapMain.ZoomToMaxExtents() 
@@ -146,9 +147,9 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
    
 
 24. Now run the application. Mine looks as shown below.
-
+    
     ![image](https://user-images.githubusercontent.com/8826424/82833545-43e65500-9e8c-11ea-8f12-043129b68702.png)
-
+    
 
 <br>
 <p>
