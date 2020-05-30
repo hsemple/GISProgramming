@@ -18,7 +18,7 @@ sidebar:
 * Context Managers
 * @staticmethod and @classmethod
 * Inheritance and Encapsulation
-*Operator Overloading
+* Operator Overloading
 
 <br>
 
