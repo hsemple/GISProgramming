@@ -1,9 +1,10 @@
 ---
 permalink: /intermediate_python/
-title: "Intermediate Python" 
-sidebar: 
-   nav:"docs"
- ---   
+title: "Tutorials"
+sidebar:
+  nav: "docs" 
+---
+
 
 
 
