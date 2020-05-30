@@ -16,9 +16,9 @@ docs:
       - title: "Open Source Python GIS"
         url: /open_source/
       - title: "ArcPy"
-        url: /docs/installation/
+        url: /arcpy/
       - title: "Advanced Python"
-        url: /docs/upgrading/
+        url: /advanced_python/
 
   - title: Web Mapping
     children:
@@ -35,11 +35,11 @@ docs:
 
   - title: MapWinGIS
     children:
-     - title: "How MapWinGIS Works"
+      - title: "How MapWinGIS Works"
         url: /docs/utility-classes/
-     - title: "Intro to C#"
+      - title: "Intro to C#"
         url: /docs/helpers/
-     - title: "Building a Simple Map Viewer Application"
+      - title: "Building a Simple Map Viewer Application"
         url: /intro_mapwingis/ 
       - title: "Extending the Map Viwer Application"
         url: /docs/pages/
