@@ -1,5 +1,9 @@
-
-
+---
+permalink: /tutorials/
+title: "Tutorials"
+sidebar:
+  nav: "docs" 
+---
 
 
 
