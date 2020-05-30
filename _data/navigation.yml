@@ -30,8 +30,8 @@ docs:
         url: /docs/ui-text/
       - title: "Open Layers"
         url: /docs/authors/
-      - title: "ArcGIS Online"
-        url: /docs/layouts/
+      - title: "ArcGIS Online for Developers"
+        url: /arcgis_online/
 
   - title: Custom Desktop GIS Application
     children:
