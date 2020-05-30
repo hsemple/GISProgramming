@@ -117,47 +117,45 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 
 22. Add Code to the Navigation Buttons. Add code to the subroutine stubs for each of the Click event for each of your buttons. Add only the code in blue to the to the wrapper for each button. 
 
-        
     Private Sub btnZoomIn_Click(sender As Object, e As EventArgs) Handles btnZoomIn.Click. 
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn
     End Sub
  
- 
-     
+23. Add the code below to the zoom-out button.
+
     Private Sub btnZoomOut_Click(sender As Object, e As EventArgs) Handles btnZoomOut.Click. 
         mapMain.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut
     End Sub
 
-    
-         
+24. Add the code below to the pan button.
+
     Private Sub btnPan_Click(sender As Object, e As EventArgs) Handles btnPan.Click. 
        mapMain.CursorMode = MapWinGIS.tkCursorMode.cmPan  
     End Sub
  
-    
-    
+ 25. Add the code below to the full extent button
+
+
     Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click. 
         mapMain.ZoomToMaxExtents() 
     End Sub
  
  
-
-23. The complete code blocks should appear as shown below. Save your project. 
+26. The complete code blocks should appear as shown below. Save your project. 
 
    
-
-24. Now run the application. Mine looks as shown below.
+27. Now run the application. Mine looks as shown below.
     
     ![image](https://user-images.githubusercontent.com/8826424/82833545-43e65500-9e8c-11ea-8f12-043129b68702.png)
     
-
 <br>
 <p>
 
 
-##  Section 2. Displaying the Shapefile's Attribute Table
 
-In this section, we will write code to allow users to view the attribute table associated with each shapefile loaded into the viewing area.  The development strategy is to create a new Windows Form and place a DataGridView object on it. The DataGridView will then be used to add data from attribute tables to the form.  Note: the code for this section comes from Brian Marchionni's <a href = "http://read.pudn.com/downloads152/ebook/662579/IntroductionCustomGIS.pdf"<Introduction to Custom GIS Application Development for Windows </a>
+</h3> Section 2. Displaying the Shapefile's Attribute Table </h3>
+
+In this section, we will write code to allow users to view the attribute table associated with each shapefile loaded into the viewing area.  The development strategy is to create a new Windows Form and place a DataGridView object on it. The DataGridView will then be used to add data from attribute tables to the form.  Note: the code for this section comes from Brian Marchionni's <a href = "http://read.pudn.com/downloads152/ebook/662579/IntroductionCustomGIS.pdf"<Introduction to Custom GIS Application Development for Windows </a> <br>
 
 1. Right click your project name in the Solution Explorer and select Add, then Class, then Windows Form.   A new form will be added to the project.
 
