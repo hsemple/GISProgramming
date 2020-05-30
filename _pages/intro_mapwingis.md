@@ -133,13 +133,11 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
           mapMain.CursorMode = MapWinGIS.tkCursorMode.cmPan  
         End Sub
  
- 25. Add the code below to the full extent button
+25. Add the code below to the full extent button
 
-
-    Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click. 
+        Private Sub btnFullExtent_Click(sender As Object, e As EventArgs) Handles btnFullExtent.Click. 
         mapMain.ZoomToMaxExtents() 
-    End Sub
-    
+        End Sub
 
 26. The complete code blocks should appear as shown below. Save your project. 
 
