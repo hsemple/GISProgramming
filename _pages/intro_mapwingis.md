@@ -106,7 +106,7 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
  
 
   
-  ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png)
+  ![image](https://user-images.githubusercontent.com/8826424/82843379-fc22f600-9eaa-11ea-89bb-d36c13456239.png).
 
 
 20. To see if your code works, click on the green play button on toolbar, or press F5.  The application will build and then display a form with nothing in it. Click the add layer button and navigate to a shapefile on your computer and select it. It should appear in the application. In the illustration below, I added a Washtenaw County boundary layer and a landmarks layer to the application for viewing.  By default, an OSM layer is added as a basemap. Click on the Stop Debugging icon to return to the coding environment.
