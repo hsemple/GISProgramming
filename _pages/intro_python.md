@@ -20,18 +20,17 @@ sidebar:
 <li> Running simple programs </li>
 <li> Creating simple programs</li>
 </ul>
-
+<br/>
  
 <i> Recommended Videos and Tutorials  </i>
 <ul> 
-  <li> <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">video </a> </li>  
+  <li> <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">Full Course Video </a> </li>  
   <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
   <li><a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
 </ul>
 <br/><br/>
   
-  
-  
+    
 <h3> Unit 2 </h3>
 <ul>
 <li>	Conditional statements </li>
@@ -43,7 +42,7 @@ sidebar:
 <li>  List Comprehension  </li>
 <li>	Arrays  </li>
 </ul>
-
+<br/>
 
 <i> Recommended Tutorials </i>
 <ul>
@@ -55,7 +54,6 @@ sidebar:
 <br/><br/>
 
 
-
 <h3> Unit 3 </h3>
 <ul>
 <li>	Classes/Objects </li>
@@ -63,7 +61,7 @@ sidebar:
 <li>  Exceptions  </li>
 <li>  Debugging  </li>
 </ul>
-
+<br/> 
 
 <i> Recommended Tutorials </i>
 <ul>
