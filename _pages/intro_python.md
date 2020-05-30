@@ -17,8 +17,7 @@ As a beginner, you must first learn basic Python programming concepts.  Afterwar
 <li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
 <li> String formatting </li>
 <li> Casting </li>
-<li> Modules </li>
-<li> Standard and third-party libraries  </li>
+<li> Modules, Standard and third-party libraries  </li>
 <li> Creating and running simple programs </li>
 <li>	Conditional statements </li>
 <li>  While Loops, For Loops  </li>
@@ -34,17 +33,15 @@ As a beginner, you must first learn basic Python programming concepts.  Afterwar
 <br/>
  
 Recommended Videos and Tutorials   
-<ul> 
-  <li> <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">Full Course Video </a> </li>  
-  <li> <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a> </li>
-  <li> <a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a> </li>
-  <li>  <a href ="https://www.learnbyexample.org/python-if-else-elif-statement/">Learn by Example </a>  </li>
-  <li>  <a href = "https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">PYnative  </a> </li>
-  <li>	<a href = "https://www.guru99.com/reading-and-writing-files-in-python.html">Guru99 </a>  </li>
-  <li>  <a href = "https://www.softwaretestinghelp.com/python/python-file-reading-writing/">Python File Handling Tutorial </a>  
-  <li>  <a href = "https://realpython.com/inheritance-composition-python/">Real Python </a>  </li>
- <li> <a href = "https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-classes/cheatsheet">Code Academy </a>       </li>
-</ul>
 
-
+* <a href = "https://www.youtube.com/watch?v=yE9v9rt6ziw">Full Course Video </a>  
+* <a href = "https://www.tutorialsteacher.com/python/python-editors">TutorialsTeacher </a>  
+* <a href = "https://guides.github.com/features/pages/">Geeks for Geeks </a>  
+* <a href ="https://www.learnbyexample.org/python-if-else-elif-statement/">Learn by Example </a>   
+* <a href = "https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">PYnative  </a>  
+*	<a href = "https://www.guru99.com/reading-and-writing-files-in-python.html">Guru99 </a>   
+* <a href = "https://www.softwaretestinghelp.com/python/python-file-reading-writing/">Python File Handling Tutorial 
+* <a href = "https://realpython.com/inheritance-composition-python/">Real Python </a>   
+* <a href = "https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-classes/cheatsheet">Code Academy </a>        
+ 
 
