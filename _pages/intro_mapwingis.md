@@ -200,13 +200,12 @@ Let's illustrate how to use MapWinGIS by building a simple map viewer applicatio
 12.  Now, we will write code to display the attribute data of the shapefile that was passed to the new attribute table form. Double click on the title bar of the AttributeTable form to open the code stub for the AttributeTable_Load(...) event.   Add the following lines to the AttributeTable Load event.
     	
      
-    Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
-      pShapeFile = myShapeFile
-      InitializeComponent()
-    End Sub
-     
-     
- 
+         Public Sub New(ByRef myShapeFile As MapWinGIS.Shapefile)
+         pShapeFile = myShapeFile
+         InitializeComponent()
+         End Sub
+  
+
 13. At the very too of the page before the public declarations add the following code.
     
         Imports System
