@@ -1,5 +1,5 @@
 ---
-permalink: /mapwinViewer2/
+permalink: /mapviewer_extended/
 title: "Extending the MapWinGIS Viewer"
 sidebar:
   nav: "docs"
