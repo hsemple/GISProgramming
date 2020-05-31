@@ -18,7 +18,7 @@ docs:
       - title: "ArcPy (Terrain Analysis)"
         url: /arcpy/
       - title: "Geoprocessing with ArcPy"
-        url: /arcpy/
+        url: /arcpy_geoprocessing/
       - title: "QGIS Programming"
         url: /qgis_programming/
       - title: "Intermediate Python"
