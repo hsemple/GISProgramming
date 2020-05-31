@@ -15,10 +15,17 @@ docs:
         url: /intro_python/ 
       - title: "Open Source Python GIS"
         url: /open_source/
-      - title: "ArcPy"
+      - title: "ArcPy (Terrain Analysis)"
         url: /arcpy/
+      - title: "Geoprocessing with ArcPy"
+        url: /arcpy/
+      - title: "QGIS Programming"
+        url: /qgis_programming/
       - title: "Intermediate Python"
         url: /intermediate_python/
+        
+        
+        
 
   - title: Web Mapping
     children:
