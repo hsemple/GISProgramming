@@ -25,3 +25,4 @@ ESRI JavaScript API, OpenLayers, etc.
 * [W3Schools. Build a your first webpage](https://www.w3schools.com/html/html_intro.asp) 
 * [Basic Web Page Layout](https://www.w3schools.com/html/html_layout.asp)
 * [Responsive Layout](https://www.w3schools.com/html/html_responsive.asp)
+* [Creating a Collapsible Sidebar](https://blog.formpl.us/creating-a-simple-collapsible-sidebar-with-javascript-no-framework-required-af9f8265d156)
