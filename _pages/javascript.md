@@ -68,7 +68,12 @@ In the code below, you can see the JavaScript function in the head of the web pa
 <br> 
 
 
-Enhancing the Simple JavaScript program 
+#### Enhancing the Simple JavaScript program 
+
+In the code below, the HTML form was adjusted so that the results appear in the form rather presented on a message box. 
+
+![image](https://user-images.githubusercontent.com/8826424/83361162-a50e9c80-a354-11ea-8eb5-6ec6eefd251e.png)
+
 
     <html>
     <head>
@@ -126,9 +131,9 @@ Enhancing the Simple JavaScript program
  
 #### W3Schools LightBulb Application 
 
-Click here to see  the [application.](https://www.w3schools.com/js/js_intro.asp)
+Click on this [link](https://www.w3schools.com/js/js_intro.asp) to see the application.
 
-Copy and paste the code below into your web editor. Download the lightbulbs images and put them in the same folder as web page
+Copy and paste the code below pr from the website into your web editor. Download the lightbulbs images and put them in the same folder as web page
 
  
 
@@ -152,6 +157,19 @@ Copy and paste the code below into your web editor. Download the lightbulbs imag
     </html>
 
  
+ <br>
+ 
+ ### Extend your JavaScript Knowlege
+ Now that you have a basic understanding of how JavaScript works, it is time to deepen your knowlege of JavaScript. Complete a few JavaScript tutorials and you will be well on your way to working with the language. Topics to study include:
+ 
+ * Variables
+ *Cata types
+ * Conditional Statements
+ * Looping
+ * Functions
+ * DOM manipulation
+ 
+ <br>
  
  ### JavaScript Tutorial Links
 * [W3Schools JavaScript Tutorials](https://www.w3schools.com/js/js_whereto.asp)
