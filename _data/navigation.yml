@@ -34,7 +34,7 @@ docs:
       - title: "Cascading Style Sheets"
         url: /docs/navigation/
       - title: "JavaScript"
-        url: /docs/ui-text/
+        url: /javascript/
       - title: "Open Layers"
         url: /openlayers/
       - title: "ArcGIS Online for Developers"
