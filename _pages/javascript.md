@@ -63,7 +63,7 @@ In the code below, you can see the JavaScript function in the head of the web pa
     </html>
 
 
-![image](https://user-images.githubusercontent.com/8826424/83361090-041fe180-a354-11ea-9d5b-9de8475801ec.png)
+![image](https://user-images.githubusercontent.com/8826424/83361650-a772f580-a358-11ea-89d9-56b8879cbfab.png)
 
 <br> 
 
@@ -159,17 +159,24 @@ Copy and paste the code below pr from the website into your web editor. Download
  
  <br>
  
- ### Extend your JavaScript Knowlege
- Now that you have a basic understanding of how JavaScript works, it is time to deepen your knowlege of JavaScript. Complete a few JavaScript tutorials and you will be well on your way to working with the language. Topics to study include:
+### Extend your JavaScript Knowlege
+Now that you have a basic understanding of how JavaScript works, it is time to deepen your knowlege of JavaScript. Complete as  much JavaScript tutorials as you can and you will be well on your way to working with the language. Topics to study include:
  
  * Variables
- *Cata types
+ * Data types
  * Conditional Statements
  * Looping
- * Functions
- * DOM manipulation
+ * Functions and Events
+ * Arrays
+ * Scope
+ * Asynchronicy
+ * Node.js
+ * Error Handling
+ * Classes, Objects, Methods
+ * DOM Manipulation
+ * JQuery
  
  <br>
  
- ### JavaScript Tutorial Links
+### JavaScript Tutorial Links
 * [W3Schools JavaScript Tutorials](https://www.w3schools.com/js/js_whereto.asp)
