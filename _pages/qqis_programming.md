@@ -1,5 +1,5 @@
 ---
-permalink:/qgis_programming/
+permalink: /qgis_programming/
 title: "QGIS Programming"
 sidebar:
   nav: "docs"
