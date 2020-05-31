@@ -48,8 +48,7 @@ docs:
         url: /intro_mapwingis/ 
       - title: "Extending the Map Viewer Application"
         url: /mapviewer_extended/
-      - title: "Sample Codes"
-        url: /sample_scripts/
+      
  
 
      
