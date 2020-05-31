@@ -29,8 +29,8 @@ docs:
 
   - title: Web Mapping
     children:
-      - title: "HTML"
-        url: /docs/configuration/
+      - title: "Create a Website"
+        url: /create_website/
       - title: "Cascading Style Sheets"
         url: /docs/navigation/
       - title: "JavaScript"
@@ -40,13 +40,13 @@ docs:
       - title: "ArcGIS Online for Developers"
         url: /arcgis_online/
 
-  - title: Custom Desktop GIS Application
+  - title: Embedding GIS into Windows Apps
     children:
       - title: "Intro to C#"
         url: /intro_c_sharp/
       - title: "Building a Simple Map Viewer App"
         url: /intro_mapwingis/ 
-      - title: "Extending the Map Viewer Application"
+      - title: "Extending the Map Viewer App"
         url: /mapviewer_extended/
       
  
