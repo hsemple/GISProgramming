@@ -1,6 +1,6 @@
 ---
 permalink: /C#/
-title: "Introduction to C#
+title: "Introduction to C#"
 sidebar:
   nav: "docs"
 ---  
