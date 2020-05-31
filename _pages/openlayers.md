@@ -10,7 +10,7 @@ OpenLayers is a JavaScript library that contain functions for creating interacti
 
 
 
-###Build a Basic Open Layers Web Mapping Application
+### Building a Simple Open Layers Web Mapping Application
 
 1. First, take a look at this [site](https://medium.com/attentive-ai/working-with-openlayers-4-part-1-creating-the-first-application-9ab27bbd7a62) to see how a basic web mapping application is built using Open Layers.
 
@@ -69,6 +69,7 @@ OpenLayers is a JavaScript library that contain functions for creating interacti
 You can view the code explanation [here](https://openlayers.org/en/latest/doc/quickstart.html).  
 
 
+<br>
 
 ### Extending the OpenLayers Application
 
@@ -173,7 +174,7 @@ The illustration below shows an OSM layer overlaid with a Michigan Geology layer
      </html>
 
 
-### Code Explanation
+#### Code Explanation
 The most significant additions to this code relative to the previous one are the variables that contain map layers. The map layers are in GeoJson format. Both ArcMap and ArcGIS Pro have tools for exporting shapefiles to geojson format. GeoJSON is a popular format for handling geographic data on the web.  Many web mapping programs can parse it, including OpenLayers and Google Maps API.
 
 For this application, I used QGIS to export the shapefiles to GeoJSON format.   Once the files are converted to geojson, you can upload them to the server. The layer is referenced in the code as shown below.  
@@ -186,3 +187,14 @@ For this application, I used QGIS to export the shapefiles to GeoJSON format.   
 
 Notice that the geojson is being declared as a Vector, and not as a Tile. The data source is vector. The URL is the URL of the geojson layer. In this case, because the geojson is in the same folder with the web page, we simply write the name of the file and along with its 
 
+<br>
+
+
+### Adding Open Layers Controls to the Map
+
+The link below point to sample codes for adding open layers scale bar to your map. Study the sample, extract relevant sections of code, and add them to your code to build your application.
+
+ * [Scale bar](https://labs.webgeodatavore.com/workshop-openlayers-3-foss4g-uk-2016/controls/scaleline.html)
+ * [Adding a Zoom Slider](https://openlayers.org/en/latest/examples/zoomslider.html)
+
+ 
