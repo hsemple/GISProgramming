@@ -82,123 +82,107 @@ The illustration below shows an OSM layer overlaid with a Michigan Geology layer
     <!doctype html>
     <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
-    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+      <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+      <title>OpenLayers Web App</title>
+      <style>
+         html, body{
+         margin: 0px;
+         padding: 0px;
+         border: 0px;
+         }
 
-    <title>OpenLayers Web App</title>
+         #map {
+         height:85%;
+         width: 63%;
+         margin: auto;
+         }
 
-    <style>
-    html, body{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    }
-
-    #map {
-    height:85%;
-    width: 63%;
-    margin: auto;
-    }
-
-
-    #container {
-    margin: auto;
-    width: 90%;
-    }
-
-    </style>
-
+         #container {
+         margin: auto;
+         width: 90%;
+         }
+      </style>
     </head>
-
     <body>
-
-    <div id=“container”>
-
-    <div id="map">
-
-    <center><h1>  Interactive Web Map with Multiple Layers </h1> </center>
-
-    </div>
-
-    <script type="text/javascript">
-
-    var osmlayer = new ol.layer.Tile({
-    source: new ol.source.OSM()
-    });
-
-
-    // -- Load Michigan geology as a WMS layer --
-    var arcGISTileLayer = new ol.layer.Tile({
-      title: 'ArcGIS Tile',
-      type: 'base',
-      name: 'ArcGIS Map Tile',
-      visible: false,
-      source: new ol.source.TileArcGISRest({
-        url: 'http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer'})
-      });
-    arcGISTileLayer.setVisible(true);       
-
-
-    // -- Load US geology layer as a WMS layer --
-    var geology = new ol.layer.Tile({
-        source: new ol.source.TileWMS({
-          url: 'https://mrdata.usgs.gov/services/kb?',
-        params:{'LAYERS': 'Geology', 'TILED': true},
-        })
-       });
-      geology.setVisible(false);	  
-
-
-
-    var us_faults = new ol.layer.Tile({
-        source: new ol.source.TileWMS({
-          url: 'https://mrdata.usgs.gov/services/sgmc?',
-        params:{'LAYERS': 'State_Geologic_Map_Compilation', 'TILED': true},
-        })
-       });
-      us_faults.setVisible(true); 	
-
-    // -- Load shapefiles into Openlayers as geojson.  
-    var parcels = new ol.layer.Vector({
-    source: new ol.source.Vector({
-    format: new ol.format.GeoJSON(),
-    url: 'bedrock_geology.geojson',
-    defaultProjection :'EPSG:4326', projection: 'EPSG:3857'
-       })
-    });
-
-    var map = new ol.Map({
-        target: 'map',
-       renderer: 'canvas',
-       layers: [osmlayer, geology, parcels],
-
-    view: new ol.View({
-        center: ol.proj.fromLonLat([-85.257728,43.649808]),
-        zoom: 6
-       })
-    });
-
-    </script>
-
-    </div>
-    </body>
-    </html>
+      <div id=“container”>
+         <div id="map">
+            <center>
+               <h1>  Interactive Web Map with Multiple Layers </h1>
+            </center>
+         </div>
+         <script type="text/javascript">
+            var osmlayer = new ol.layer.Tile({
+            source: new ol.source.OSM()
+            });
+            
+            
+            // -- Load Michigan geology as a WMS layer --
+            var arcGISTileLayer = new ol.layer.Tile({
+              title: 'ArcGIS Tile',
+              type: 'base',
+              name: 'ArcGIS Map Tile',
+              visible: false,
+              source: new ol.source.TileArcGISRest({
+                url: 'http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer'})
+              });
+              arcGISTileLayer.setVisible(true);                  
+            
+            // -- Load US geology layer as a WMS layer --
+            var geology = new ol.layer.Tile({
+              source: new ol.source.TileWMS({
+                url: 'https://mrdata.usgs.gov/services/kb?',
+                params:{'LAYERS': 'Geology', 'TILED': true},
+                })
+               });
+              geology.setVisible(false);	               
+            
+            var us_faults = new ol.layer.Tile({
+              source: new ol.source.TileWMS({
+                url: 'https://mrdata.usgs.gov/services/sgmc?',
+                params:{'LAYERS': 'State_Geologic_Map_Compilation', 'TILED': true},
+                })
+               });
+              us_faults.setVisible(true); 	
+            
+            // -- Load shapefiles into Openlayers as geojson.  
+            var parcels = new ol.layer.Vector({
+              source: new ol.source.Vector({
+               format: new ol.format.GeoJSON(),
+               url: 'bedrock_geology.geojson',
+               defaultProjection :'EPSG:4326', projection: 'EPSG:3857'
+               })
+            });
+            
+            var map = new ol.Map({
+               target: 'map',
+               renderer: 'canvas',
+               layers: [osmlayer, geology, parcels],
+            
+            view: new ol.View({
+                center: ol.proj.fromLonLat([-85.257728,43.649808]),
+                zoom: 6
+               })
+            });
+            
+            </script>
+          </div>
+       </body>
+     </html>
 
 
 ### Code Explanation
+The most significant additions to this code relative to the previous one are the variables that contain map layers. The map layers are in GeoJson format. Both ArcMap and ArcGIS Pro have tools for exporting shapefiles to geojson format. GeoJSON is a popular format for handling geographic data on the web.  Many web mapping programs can parse it, including OpenLayers and Google Maps API.
 
-Adding your own layers to OpenLayers
-To add yourown layers to OpenLayers, first you display the layers in ArcMap, then open ArcToolBox and export the layers to geojson format. GeoJSON is a popular format for handling geographic data on the web.  Many web mapping programs can parse it, including OpenLayers and Google Maps API.
+For this application, I used QGIS to export the shapefiles to GeoJSON format.   Once the files are converted to geojson, you can upload them to the server. The layer is referenced in the code as shown below.  
 
-I use QGIS to export shapefiles to GeoJSON format.   Once the files are converted to geojson, you can upload them to people.emich.edu. You will also reference them in your code, as shown below:
-
-       var roads = new ol.layer.Vector({
+        var roads = new ol.layer.Vector({
         source: new ol.source.Vector({ 
         format: new ol.format.GeoJSON(),  
 	 url: 'roads.geojson',  	
         });	
 
-Notice that the geojson is being declared as a Vector, and not as a Tile. The data source is vector. The URL is the URL of the geojson layer. In this case, because the geojson is in he same folder with the web page, we simply write the name of the file and along with its 
+Notice that the geojson is being declared as a Vector, and not as a Tile. The data source is vector. The URL is the URL of the geojson layer. In this case, because the geojson is in the same folder with the web page, we simply write the name of the file and along with its 
 
