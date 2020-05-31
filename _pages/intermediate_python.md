@@ -23,6 +23,7 @@ sidebar:
 <br>
 
 ### References
+* [Python for Fun](http://www.openbookproject.net/py4fun/)
 * [Python Intermediate Topics](https://towardsdatascience.com/10-topics-python-intermediate-programmer-should-know-3c865e8533d6)
 * [Intermediate Python](https://book.pythontips.com/en/latest/)
 * [Getting Started with Python](https://data-flair.training/blogs/python-tutorials-home/)
