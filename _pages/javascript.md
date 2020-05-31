@@ -63,11 +63,12 @@ In the code below, you can see the JavaScript function in the head of the web pa
     </html>
 
 
-
+![image](https://user-images.githubusercontent.com/8826424/83361090-041fe180-a354-11ea-9d5b-9de8475801ec.png)
 
 <br> 
 
-#### Enhancing the Simple JavaScript program 
+
+Enhancing the Simple JavaScript program 
 
     <html>
     <head>
