@@ -43,7 +43,7 @@ docs:
   - title: Custom Desktop GIS Application
     children:
       - title: "Intro to C#"
-        url: /C#/
+        url: /intro_c_sharp/
       - title: "Building a Simple Map Viewer App"
         url: /intro_mapwingis/ 
       - title: "Extending the Map Viewer Application"
