@@ -6,6 +6,7 @@ sidebar:
 ---  
 
 
+The Internet abounds with introductory tutorials on C#, so we will make use of these resources to get started with C#. Below, I list a few links to get you started.  Our goal is to be able to read and write basic/intermediate level code in C#.
 
 * [Introduction to C#](https://www.w3schools.com/cs/cs_intro.asp)
 * [C# Tutorial](https://csharp.net-tutorials.com/getting-started/introduction/)
