@@ -40,7 +40,7 @@ docs:
       - title: "ArcGIS Online for Developers"
         url: /arcgis_online/
 
-  - title: Embedding GIS into Windows Apps
+  - title: GIS and Windows Apps
     children:
       - title: "Intro to C#"
         url: /intro_c_sharp/
