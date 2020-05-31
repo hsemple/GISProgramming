@@ -36,7 +36,7 @@ docs:
       - title: "JavaScript"
         url: /docs/ui-text/
       - title: "Open Layers"
-        url: /docs/authors/
+        url: /openlayers/
       - title: "ArcGIS Online for Developers"
         url: /arcgis_online/
 
