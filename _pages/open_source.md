@@ -183,7 +183,10 @@ Rasterio has a show( ) method for displaying rasters. However, the library also 
 
 <br>
 #### Displaying Satellite Imagery with Rasterio
-[Displaying True color and False color imagery with Rasterio](https://automating-gis-processes.github.io/CSC/notebooks/L5/plotting-raster.html)
+* [Displaying True color and False color imagery with Rasterio](https://automating-gis-processes.github.io/CSC/notebooks/L5/plotting-raster.html)
+
+* [Working with Satellite Imagery](https://geohackweek.github.io/raster/04-workingwithrasters/)
+
 
 
 <br>
@@ -330,3 +333,9 @@ dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1
  
 ![image](https://user-images.githubusercontent.com/8826424/83339214-90b99980-a299-11ea-9179-6dfa3b9056c9.png)
 
+
+
+<br>
+
+#### Geoprocessing Rasters
+* [Clip and Merge Rasters with GeoRaster](https://pypi.org/project/georasters/
