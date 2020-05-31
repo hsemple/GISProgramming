@@ -9,9 +9,8 @@ sidebar:
 ### Topics
 * ArcGIS Online Accounts - Public, Organizational, and Developer Accounts 
 * Authoring and Creating Web Maps  
-* Web Mapping Applications
-* Embedding Web Maps in Your Application
-* Creating Ready to Use Web Apps
+* Embedding ESRI Web Maps into Websites
+* Creating Ready to Use Web Apps without programming.
 * Creating Apps with Web App Builder
  
  
