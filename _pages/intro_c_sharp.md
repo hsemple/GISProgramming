@@ -1,5 +1,5 @@
 ---
-permalink: /C#/
+permalink: /intro_c_sharp/
 title: "Introduction to C#"
 sidebar:
   nav: "docs"
