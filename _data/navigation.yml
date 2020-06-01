@@ -39,7 +39,7 @@ docs:
         url: /openlayers/
       - title: "ArcGIS Online for Developers"
         url: /arcgis_online/
-        - title: "Google Map and Mapbox"
+      - title: "Google Map and Mapbox"
         url: /google_mapbox/
 
 
