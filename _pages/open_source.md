@@ -228,6 +228,30 @@ Once Rasterio is installed, run the sample script below.
 
 <br>
 
+
+#### Generate Hillshade
+
+*[Generate Hillshade](https://tilemill-project.github.io/tilemill/docs/guides/terrain-data/)
+* [Generate Hillshade with Earthpy](https://earthpy.readthedocs.io/en/latest/gallery_vignettes/plot_dem_hillshade.html)
+* [Generate Hillshade with Raterrio](http://geologyandpython.com/dem-processing.html)
+* [Generate Hillshade with PostGIS](https://postgis.net/docs/RT_ST_HillShade.html)
+* [Generate Hillshade](https://www.neonscience.org/create-hillshade-py)
+* [Why bother with cpde? Just use QGIS](https://docs.qgis.org/2.8/en/docs/user_manual/processing_algs/gdalogr/gdal_analysis/hillshade.html)
+* [Hillshade with GDAL-See Section 2 mostly ](https://medium.com/@david.moraisferreira/shaded-relief-maps-using-gdal-a-beginners-guide-6a3fe56c6d)
+
+
+<br>
+
+
+#### Various Raster Processing 
+
+* [Raster processing](https://geoscripting-wur.github.io/)
+
+
+<br>
+
+
+
 ### Querying Rasters 
 
 #### Find all places with elevation greater than 2500 ft  (Method 1)
