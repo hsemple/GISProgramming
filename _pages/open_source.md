@@ -9,12 +9,11 @@ sidebar:
 
 
 ### Open Source GIS Libraries
-Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some of the popular open source libraries used in the geospatial community. The list is in no paraticualr order. Selection of particular libraries depend on the task that needs to be carried out.   
+Once you have mastered basic concepts in Python, you are ready to take on working with the GIS libraries. Here is a list of some of the popular open source libraries used in the geospatial community. The list is in no paraticular order. Selection of particular libraries depend on the task that needs to be carried out.   
 
 
-* [Geopandas.](https://geopandas.org/#description) Great tool for easy reading and display of vector data.
-* [GDAL/OGR.](https://gdal.org/) - A package used by many GIS applications for raster and vector processing. 
-* [Rasterio.](https://rasterio.readthedocs.io/en/latest/) Simplifies working with raster datasets procssing
+* [Geopandas.](https://geopandas.org/#description) Great tool. Displays shapefiles with just a few lines of code.  
+* [Rasterio.](https://rasterio.readthedocs.io/en/latest/) Simplifies working with raster datasets. 
 * [PyProj.0](https://pypi.org/project/pyproj/)  Widely used tool for cartographic transformations and geodetic computations
 * [Cartopy.](https://scitools.org.uk/cartopy/docs/latest/index.html) Cartography library
 * [Fiona.](https://pypi.org/project/Fiona/) Reads and write spatial data. 
@@ -42,7 +41,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 
 ### Code Snippets
 
-#### Displaying a Shapefiles Using Geopandas
+#### Reading and Displaying a Shapefiles Using Geopandas
 
     import matplotlib.pyplot as plt
     import geopandas as gpd
@@ -64,14 +63,15 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 
 #### Plotting a Thematic Map
 
-    import pandas as pd
+    #import pandas as pd
     import geopandas
     import matplotlib.pyplot as plt
     gdf = geopandas.read_file("/Users/.../Michigan.shp")
 
-    #Display the shapefile
+    #Set up plotting area
     f, ax = plt.subplots(1, figsize=(10, 13))
 
+    #Display the shapefile
     gdf.plot(ax = ax, column= 'MOBILEHOME', cmap='OrRd' , scheme='fisher_jenks', legend=True, edgecolor='black')
 
     ax.set_title("Moble Homes, Michigan", fontdict={'fontsize': '20', 'fontweight' : '3'})
@@ -113,7 +113,7 @@ The geopandas code is preferred over the code below but I include here for the i
  <br>
  
 
-#### Displaying a Raster Using GDAL
+#### Displaying a Single Band Raster Using GDAL
  
     import numpy as np
     import gdal
