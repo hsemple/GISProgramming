@@ -246,6 +246,7 @@ Once Rasterio is installed, run the sample script below.
 #### Various Raster Processing 
 
 * [Raster processing](https://geoscripting-wur.github.io/)
+* [Raster processing with PySal](https://pysal.org/scipy2019-intermediate-gds/deterministic/gds2-rasters.html)
 
 
 <br>
@@ -369,3 +370,4 @@ dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1
 <br>
 #### Raster Site Selection Tutorials
 * [Site Selection Analysis(https://developers.arcgis.com/python/sample-notebooks/calculating-cost-surfaces-using-weighted-overlay-analysis/)
+
