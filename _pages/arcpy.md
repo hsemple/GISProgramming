@@ -261,3 +261,6 @@ This example determines the surface locations visible to a set of observers defi
 
 
 
+
+*** ArcPy Books
+[ArcPy. Introduction to Geeprocessing Scripts](https://www.ingemmet.gob.pe/documents/59082/64842/Introduction%20to%20Geoprocessing%20Scripts%20Using%20Python.pdf)
