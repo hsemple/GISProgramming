@@ -229,9 +229,9 @@ Once Rasterio is installed, run the sample script below.
 <br>
 
 
-#### Generate Hillshade
+#### Generate Hillshade Tutorials
 
-*[Generate Hillshade](https://tilemill-project.github.io/tilemill/docs/guides/terrain-data/)
+* [Generate Hillshade](https://tilemill-project.github.io/tilemill/docs/guides/terrain-data/)
 * [Generate Hillshade with Earthpy](https://earthpy.readthedocs.io/en/latest/gallery_vignettes/plot_dem_hillshade.html)
 * [Generate Hillshade with Raterrio](http://geologyandpython.com/dem-processing.html)
 * [Generate Hillshade with PostGIS](https://postgis.net/docs/RT_ST_HillShade.html)
@@ -363,3 +363,9 @@ dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1
 
 #### Geoprocessing Rasters
 * [Clip and Merge Rasters with GeoRaster](https://pypi.org/project/georasters/
+
+
+
+<br>
+#### Raster Site Selection Tutorials
+* [Site Selection Analysis(https://developers.arcgis.com/python/sample-notebooks/calculating-cost-surfaces-using-weighted-overlay-analysis/)
