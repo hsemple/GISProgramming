@@ -8,18 +8,18 @@ sidebar:
 
 
 <br>
+
 ### What is ArcPy
 ArcPy is a commercial GIS library created by ESRI for use by its software ArcMap and ArcGIS Pro.  It provides access to all the tools in ArcToolbox.  Tools are accessed as functions using the following syntax :  
           "arcpy[toolname_toolboxalias][parameters]"
 
- 
+Information on tool names and tool parameters can be obtained from ArcPy's documentation. Note that the tool names often  vary a bit from their names in Toolbox. Below, are examples of ArcPy scripts for executing terrain analysis tools.
 
 Typically tools are accessed through dialog box, as shown in the illustration below. However, arcpy accesses the tool throuh code.  In addition, ArcPy can be used to create user defined tools and dialogs.   
 
  ![image](https://user-images.githubusercontent.com/8826424/83334084-132e6300-a272-11ea-93e2-d3c67f3eaa71.png)
 
  
-Information on tool names and tool parameters can be obtained from ArcPy's documentation. Note that the tool names often  vary a bit from their names in Toolbox. Below, are examples of ArcPy scripts for executing terrain analysis tools.
 
  
 
