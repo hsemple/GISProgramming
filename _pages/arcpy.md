@@ -26,6 +26,19 @@ Information on tool names and tool parameters can be obtained from ArcPy's docum
  
 ### Script Samples
 
+### Arcpy Mapping Module
+* Using the Arcpy Mapping Module to Manage Projects, Maps, and Layers
+* Managing Layouts with the Arcpy Mapping Module
+* Automating Map Production and Printing
+* Updating and Fixing Data Sources
+
+
+
+<br>
+
+
+### Terrain Analysis with ArcPy
+
 #### Calculate Slope using Python's Window within ArcMap 
 
     import arcpy
