@@ -26,6 +26,7 @@ Once you have mastered basic concepts in Python, you are ready to take on workin
 * [PySAL.](https://pysal.org/) Used for spatial statistical analysis. 
 * [RSGISLib.](https://www.rsgislib.org/index.html#python-documentation) Remote Sensing Library
 * [Geoplot.](https://geopandas.org/gallery/plotting_with_geoplot.html). Used for plotting maps and several GIS operations.
+* [PyGeoprocessing](https://pypi.org/project/pygeoprocessing/). Great for raster processing.
 
 <br>
 Below, you will find links and code snippets to common tasks in GIS that are made possible using these libraries.  
@@ -36,6 +37,7 @@ Below, you will find links and code snippets to common tasks in GIS that are mad
 * [Plotting Coordinates](https://idlecoding.com/transverse-mercator-with-python/)
 * [Table Joins](https://www.dataquest.io/blog/pandas-concatenation-tutorial/)
 * [GIS data access and manipulation with Python](https://www.e-education.psu.edu/geog485/node/253) 
+* [About Vector Data](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/)
 
 <br>
 
@@ -368,6 +370,7 @@ dz/dy = [ (Elev(i - 1, j-1) + 2 Elev(i - 1, j) + Elev(i - 1, j+1)) - (Elev(i + 1
 
 
 <br>
-#### Raster Site Selection Tutorials
-* [Site Selection Analysis(https://developers.arcgis.com/python/sample-notebooks/calculating-cost-surfaces-using-weighted-overlay-analysis/)
+
+####  Raster Site Selection Tutorials
+* [Site Selection Analysis](https://developers.arcgis.com/python/sample-notebooks/calculating-cost-surfaces-using-weighted-overlay-analysis/)
 
