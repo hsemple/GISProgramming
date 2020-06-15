@@ -14,3 +14,4 @@ The Internet abounds with introductory tutorials on C#, so we will make use of t
 * [C# Basics in 1 Hour.](https://www.youtube.com/watch?v=gfkTfcpWqAY) YouTube Video
 * [Creating a C# Demo Application.](https://www.youtube.com/watch?v=YxewTI4H2mY) YouTube Video
 * [C# and Live Chart.](https://www.youtube.com/watch?v=m3cciGGx3ak) YouTube Video
+* [Practice Simple C# Programs](https://hsemple.github.io/GISProgramming/intro_python/)
