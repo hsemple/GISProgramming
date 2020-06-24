@@ -1,8 +1,18 @@
+---
+permalink: /leaflet/
+title: "Leaflet"
+toc: true
+sidebar:
+  nav: "docs" 
+---
 
 
+<br>
+
+### Leaflet
 
 
-[leaflet](https://esri.github.io/esri-leaflet/examples/)
+[Leaflet](https://esri.github.io/esri-leaflet/examples/)
 
 
 
