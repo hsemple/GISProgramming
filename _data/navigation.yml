@@ -37,6 +37,8 @@ docs:
         url: /javascript/
       - title: "Open Layers"
         url: /openlayers/
+     - title: "Leaflet"
+        url: /leaflet/ 
       - title: "ArcGIS Online for Developers"
         url: /arcgis_online/
       - title: "Google Map and Mapbox"
