@@ -14,10 +14,11 @@ As a beginner, you must first learn basic Python programming concepts.  Afterwar
 <li> What is Python? </li>
 <li> Downloading and installing Python. Download <a href = "https://www.anaconda.com/products/individual">Anaconda Distribution</a> </li>
 <li> Variables and variable assignment.   <a href = "https://www.youtube.com/watch?v=yj3Uopm6XvY"> YouTube Video</a>.</li>
-<li> Data types - strings, integers, floats, lists, tuples, dictionaries </li>
+<li> Data types - strings, integers, floats, and lists </li>
+<li> Data types - tuples and dictionaries </li>
 <li> String formatting </li>
 <li> Casting </li>
-<li> Modules, Standard and third-party libraries  </li>
+<li> Modules, standard and third-party libraries  </li>
 <li> Creating and running simple programs </li>
 <li>	Conditional statements </li>
 <li>  While Loops, For Loops  </li>
